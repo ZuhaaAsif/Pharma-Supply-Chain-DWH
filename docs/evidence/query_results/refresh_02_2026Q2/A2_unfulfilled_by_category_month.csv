@@ -1,0 +1,295 @@
+year_month,disease_category,unfulfilled,stockout_days
+2023-01,Cardiovascular Disease,0.0,0.0
+2023-01,Diabetes Mellitus,0.0,0.0
+2023-01,Gastrointestinal Disease,0.0,0.0
+2023-01,Infectious Disease,0.0,0.0
+2023-01,Neurological and Mental Health Conditions,0.0,0.0
+2023-01,Pain and Inflammatory Conditions,0.0,0.0
+2023-01,Respiratory Disease,0.0,0.0
+2023-02,Cardiovascular Disease,0.0,0.0
+2023-02,Diabetes Mellitus,0.0,0.0
+2023-02,Gastrointestinal Disease,0.0,0.0
+2023-02,Infectious Disease,0.0,0.0
+2023-02,Neurological and Mental Health Conditions,0.0,0.0
+2023-02,Pain and Inflammatory Conditions,0.0,0.0
+2023-02,Respiratory Disease,0.0,0.0
+2023-03,Cardiovascular Disease,0.0,0.0
+2023-03,Diabetes Mellitus,0.0,0.0
+2023-03,Gastrointestinal Disease,0.0,0.0
+2023-03,Infectious Disease,0.0,0.0
+2023-03,Neurological and Mental Health Conditions,0.0,0.0
+2023-03,Pain and Inflammatory Conditions,0.0,0.0
+2023-03,Respiratory Disease,0.0,0.0
+2023-04,Cardiovascular Disease,0.0,0.0
+2023-04,Diabetes Mellitus,0.0,0.0
+2023-04,Gastrointestinal Disease,0.0,0.0
+2023-04,Infectious Disease,0.0,0.0
+2023-04,Neurological and Mental Health Conditions,0.0,0.0
+2023-04,Pain and Inflammatory Conditions,0.0,0.0
+2023-04,Respiratory Disease,0.0,0.0
+2023-05,Cardiovascular Disease,0.0,0.0
+2023-05,Diabetes Mellitus,0.0,0.0
+2023-05,Gastrointestinal Disease,0.0,0.0
+2023-05,Infectious Disease,0.0,0.0
+2023-05,Neurological and Mental Health Conditions,0.0,0.0
+2023-05,Pain and Inflammatory Conditions,0.0,0.0
+2023-05,Respiratory Disease,0.0,0.0
+2023-06,Cardiovascular Disease,0.0,0.0
+2023-06,Diabetes Mellitus,0.0,0.0
+2023-06,Gastrointestinal Disease,0.0,0.0
+2023-06,Infectious Disease,0.0,0.0
+2023-06,Neurological and Mental Health Conditions,0.0,0.0
+2023-06,Pain and Inflammatory Conditions,4.0,1.0
+2023-06,Respiratory Disease,19.0,2.0
+2023-07,Cardiovascular Disease,0.0,0.0
+2023-07,Diabetes Mellitus,0.0,0.0
+2023-07,Gastrointestinal Disease,0.0,0.0
+2023-07,Infectious Disease,0.0,0.0
+2023-07,Neurological and Mental Health Conditions,0.0,0.0
+2023-07,Pain and Inflammatory Conditions,28.0,1.0
+2023-07,Respiratory Disease,0.0,0.0
+2023-08,Cardiovascular Disease,0.0,0.0
+2023-08,Diabetes Mellitus,0.0,0.0
+2023-08,Gastrointestinal Disease,0.0,0.0
+2023-08,Infectious Disease,0.0,0.0
+2023-08,Neurological and Mental Health Conditions,0.0,0.0
+2023-08,Pain and Inflammatory Conditions,17.0,1.0
+2023-08,Respiratory Disease,0.0,0.0
+2023-09,Cardiovascular Disease,0.0,0.0
+2023-09,Diabetes Mellitus,0.0,0.0
+2023-09,Gastrointestinal Disease,0.0,0.0
+2023-09,Infectious Disease,0.0,0.0
+2023-09,Neurological and Mental Health Conditions,0.0,0.0
+2023-09,Pain and Inflammatory Conditions,47.0,3.0
+2023-09,Respiratory Disease,0.0,0.0
+2023-10,Cardiovascular Disease,0.0,0.0
+2023-10,Diabetes Mellitus,0.0,0.0
+2023-10,Gastrointestinal Disease,0.0,0.0
+2023-10,Infectious Disease,0.0,0.0
+2023-10,Neurological and Mental Health Conditions,0.0,0.0
+2023-10,Pain and Inflammatory Conditions,16.0,2.0
+2023-10,Respiratory Disease,0.0,0.0
+2023-11,Cardiovascular Disease,0.0,0.0
+2023-11,Diabetes Mellitus,0.0,0.0
+2023-11,Gastrointestinal Disease,0.0,0.0
+2023-11,Infectious Disease,0.0,0.0
+2023-11,Neurological and Mental Health Conditions,0.0,0.0
+2023-11,Pain and Inflammatory Conditions,16.0,1.0
+2023-11,Respiratory Disease,0.0,0.0
+2023-12,Cardiovascular Disease,0.0,0.0
+2023-12,Diabetes Mellitus,0.0,0.0
+2023-12,Gastrointestinal Disease,0.0,0.0
+2023-12,Infectious Disease,0.0,0.0
+2023-12,Neurological and Mental Health Conditions,0.0,0.0
+2023-12,Pain and Inflammatory Conditions,153.0,3.0
+2023-12,Respiratory Disease,0.0,0.0
+2024-01,Cardiovascular Disease,0.0,0.0
+2024-01,Diabetes Mellitus,0.0,0.0
+2024-01,Gastrointestinal Disease,0.0,0.0
+2024-01,Infectious Disease,9.0,2.0
+2024-01,Neurological and Mental Health Conditions,0.0,0.0
+2024-01,Pain and Inflammatory Conditions,90.0,2.0
+2024-01,Respiratory Disease,7.0,1.0
+2024-02,Cardiovascular Disease,0.0,0.0
+2024-02,Diabetes Mellitus,0.0,0.0
+2024-02,Gastrointestinal Disease,0.0,0.0
+2024-02,Infectious Disease,0.0,0.0
+2024-02,Neurological and Mental Health Conditions,0.0,0.0
+2024-02,Pain and Inflammatory Conditions,38.0,2.0
+2024-02,Respiratory Disease,17.0,1.0
+2024-03,Cardiovascular Disease,13.0,1.0
+2024-03,Diabetes Mellitus,0.0,0.0
+2024-03,Gastrointestinal Disease,0.0,0.0
+2024-03,Infectious Disease,0.0,0.0
+2024-03,Neurological and Mental Health Conditions,0.0,0.0
+2024-03,Pain and Inflammatory Conditions,0.0,0.0
+2024-03,Respiratory Disease,22.0,1.0
+2024-04,Cardiovascular Disease,7.0,2.0
+2024-04,Diabetes Mellitus,0.0,0.0
+2024-04,Gastrointestinal Disease,0.0,0.0
+2024-04,Infectious Disease,0.0,0.0
+2024-04,Neurological and Mental Health Conditions,0.0,0.0
+2024-04,Pain and Inflammatory Conditions,57.0,4.0
+2024-04,Respiratory Disease,0.0,0.0
+2024-05,Cardiovascular Disease,0.0,0.0
+2024-05,Diabetes Mellitus,0.0,0.0
+2024-05,Gastrointestinal Disease,0.0,0.0
+2024-05,Infectious Disease,3.0,1.0
+2024-05,Neurological and Mental Health Conditions,0.0,0.0
+2024-05,Pain and Inflammatory Conditions,67.0,6.0
+2024-05,Respiratory Disease,0.0,0.0
+2024-06,Cardiovascular Disease,0.0,0.0
+2024-06,Diabetes Mellitus,0.0,0.0
+2024-06,Gastrointestinal Disease,0.0,0.0
+2024-06,Infectious Disease,11.0,1.0
+2024-06,Neurological and Mental Health Conditions,0.0,0.0
+2024-06,Pain and Inflammatory Conditions,7.0,1.0
+2024-06,Respiratory Disease,0.0,0.0
+2024-07,Cardiovascular Disease,0.0,0.0
+2024-07,Diabetes Mellitus,0.0,0.0
+2024-07,Gastrointestinal Disease,0.0,0.0
+2024-07,Infectious Disease,1.0,1.0
+2024-07,Neurological and Mental Health Conditions,0.0,0.0
+2024-07,Pain and Inflammatory Conditions,52.0,2.0
+2024-07,Respiratory Disease,111.0,6.0
+2024-08,Cardiovascular Disease,0.0,0.0
+2024-08,Diabetes Mellitus,0.0,0.0
+2024-08,Gastrointestinal Disease,0.0,0.0
+2024-08,Infectious Disease,73.0,5.0
+2024-08,Neurological and Mental Health Conditions,0.0,0.0
+2024-08,Pain and Inflammatory Conditions,8.0,1.0
+2024-08,Respiratory Disease,0.0,0.0
+2024-09,Cardiovascular Disease,0.0,0.0
+2024-09,Diabetes Mellitus,0.0,0.0
+2024-09,Gastrointestinal Disease,0.0,0.0
+2024-09,Infectious Disease,0.0,0.0
+2024-09,Neurological and Mental Health Conditions,0.0,0.0
+2024-09,Pain and Inflammatory Conditions,152.0,1.0
+2024-09,Respiratory Disease,0.0,0.0
+2024-10,Cardiovascular Disease,0.0,0.0
+2024-10,Diabetes Mellitus,0.0,0.0
+2024-10,Gastrointestinal Disease,0.0,0.0
+2024-10,Infectious Disease,12.0,2.0
+2024-10,Neurological and Mental Health Conditions,0.0,0.0
+2024-10,Pain and Inflammatory Conditions,0.0,0.0
+2024-10,Respiratory Disease,0.0,0.0
+2024-11,Cardiovascular Disease,0.0,0.0
+2024-11,Diabetes Mellitus,0.0,0.0
+2024-11,Gastrointestinal Disease,0.0,0.0
+2024-11,Infectious Disease,7.0,1.0
+2024-11,Neurological and Mental Health Conditions,0.0,0.0
+2024-11,Pain and Inflammatory Conditions,0.0,0.0
+2024-11,Respiratory Disease,31.0,2.0
+2024-12,Cardiovascular Disease,23.0,2.0
+2024-12,Diabetes Mellitus,0.0,0.0
+2024-12,Gastrointestinal Disease,0.0,0.0
+2024-12,Infectious Disease,103.0,4.0
+2024-12,Neurological and Mental Health Conditions,54.0,1.0
+2024-12,Pain and Inflammatory Conditions,23.0,2.0
+2024-12,Respiratory Disease,67.0,3.0
+2025-01,Cardiovascular Disease,0.0,0.0
+2025-01,Diabetes Mellitus,0.0,0.0
+2025-01,Gastrointestinal Disease,0.0,0.0
+2025-01,Infectious Disease,1.0,1.0
+2025-01,Neurological and Mental Health Conditions,86.0,5.0
+2025-01,Pain and Inflammatory Conditions,0.0,0.0
+2025-01,Respiratory Disease,0.0,0.0
+2025-02,Cardiovascular Disease,32.0,2.0
+2025-02,Diabetes Mellitus,0.0,0.0
+2025-02,Gastrointestinal Disease,0.0,0.0
+2025-02,Infectious Disease,1.0,1.0
+2025-02,Neurological and Mental Health Conditions,1.0,1.0
+2025-02,Pain and Inflammatory Conditions,12.0,1.0
+2025-02,Respiratory Disease,8.0,1.0
+2025-03,Cardiovascular Disease,17.0,2.0
+2025-03,Diabetes Mellitus,0.0,0.0
+2025-03,Gastrointestinal Disease,0.0,0.0
+2025-03,Infectious Disease,3.0,1.0
+2025-03,Neurological and Mental Health Conditions,41.0,6.0
+2025-03,Pain and Inflammatory Conditions,0.0,0.0
+2025-03,Respiratory Disease,0.0,0.0
+2025-04,Cardiovascular Disease,0.0,0.0
+2025-04,Diabetes Mellitus,0.0,0.0
+2025-04,Gastrointestinal Disease,0.0,0.0
+2025-04,Infectious Disease,0.0,0.0
+2025-04,Neurological and Mental Health Conditions,0.0,0.0
+2025-04,Pain and Inflammatory Conditions,9.0,1.0
+2025-04,Respiratory Disease,0.0,0.0
+2025-05,Cardiovascular Disease,0.0,0.0
+2025-05,Diabetes Mellitus,0.0,0.0
+2025-05,Gastrointestinal Disease,0.0,0.0
+2025-05,Infectious Disease,0.0,0.0
+2025-05,Neurological and Mental Health Conditions,5.0,1.0
+2025-05,Pain and Inflammatory Conditions,174.0,6.0
+2025-05,Respiratory Disease,0.0,0.0
+2025-06,Cardiovascular Disease,0.0,0.0
+2025-06,Diabetes Mellitus,46.0,5.0
+2025-06,Gastrointestinal Disease,0.0,0.0
+2025-06,Infectious Disease,0.0,0.0
+2025-06,Neurological and Mental Health Conditions,0.0,0.0
+2025-06,Pain and Inflammatory Conditions,152.0,9.0
+2025-06,Respiratory Disease,0.0,0.0
+2025-07,Cardiovascular Disease,0.0,0.0
+2025-07,Diabetes Mellitus,0.0,0.0
+2025-07,Gastrointestinal Disease,0.0,0.0
+2025-07,Infectious Disease,1.0,1.0
+2025-07,Neurological and Mental Health Conditions,0.0,0.0
+2025-07,Pain and Inflammatory Conditions,10.0,1.0
+2025-07,Respiratory Disease,0.0,0.0
+2025-08,Cardiovascular Disease,0.0,0.0
+2025-08,Diabetes Mellitus,0.0,0.0
+2025-08,Gastrointestinal Disease,0.0,0.0
+2025-08,Infectious Disease,45.0,6.0
+2025-08,Neurological and Mental Health Conditions,0.0,0.0
+2025-08,Pain and Inflammatory Conditions,7.0,1.0
+2025-08,Respiratory Disease,38.0,3.0
+2025-09,Cardiovascular Disease,0.0,0.0
+2025-09,Diabetes Mellitus,12.0,1.0
+2025-09,Gastrointestinal Disease,0.0,0.0
+2025-09,Infectious Disease,37.0,1.0
+2025-09,Neurological and Mental Health Conditions,0.0,0.0
+2025-09,Pain and Inflammatory Conditions,0.0,0.0
+2025-09,Respiratory Disease,0.0,0.0
+2025-10,Cardiovascular Disease,0.0,0.0
+2025-10,Diabetes Mellitus,79.0,3.0
+2025-10,Gastrointestinal Disease,0.0,0.0
+2025-10,Infectious Disease,12.0,1.0
+2025-10,Neurological and Mental Health Conditions,0.0,0.0
+2025-10,Pain and Inflammatory Conditions,104.0,8.0
+2025-10,Respiratory Disease,100.0,3.0
+2025-11,Cardiovascular Disease,57.0,3.0
+2025-11,Diabetes Mellitus,0.0,0.0
+2025-11,Gastrointestinal Disease,0.0,0.0
+2025-11,Infectious Disease,19.0,2.0
+2025-11,Neurological and Mental Health Conditions,0.0,0.0
+2025-11,Pain and Inflammatory Conditions,18.0,1.0
+2025-11,Respiratory Disease,30.0,3.0
+2025-12,Cardiovascular Disease,15.0,1.0
+2025-12,Diabetes Mellitus,0.0,0.0
+2025-12,Gastrointestinal Disease,0.0,0.0
+2025-12,Infectious Disease,11.0,2.0
+2025-12,Neurological and Mental Health Conditions,0.0,0.0
+2025-12,Pain and Inflammatory Conditions,12.0,2.0
+2025-12,Respiratory Disease,3.0,1.0
+2026-01,Cardiovascular Disease,64.0,6.0
+2026-01,Diabetes Mellitus,29.0,3.0
+2026-01,Gastrointestinal Disease,0.0,0.0
+2026-01,Infectious Disease,38.0,5.0
+2026-01,Neurological and Mental Health Conditions,86.0,5.0
+2026-01,Pain and Inflammatory Conditions,79.0,8.0
+2026-01,Respiratory Disease,17.0,2.0
+2026-02,Cardiovascular Disease,65.0,5.0
+2026-02,Diabetes Mellitus,4.0,1.0
+2026-02,Gastrointestinal Disease,35.0,8.0
+2026-02,Infectious Disease,157.0,13.0
+2026-02,Neurological and Mental Health Conditions,1.0,1.0
+2026-02,Pain and Inflammatory Conditions,12.0,1.0
+2026-02,Respiratory Disease,61.0,6.0
+2026-03,Cardiovascular Disease,28.0,4.0
+2026-03,Diabetes Mellitus,84.0,8.0
+2026-03,Gastrointestinal Disease,6.0,1.0
+2026-03,Infectious Disease,67.0,8.0
+2026-03,Neurological and Mental Health Conditions,41.0,6.0
+2026-03,Pain and Inflammatory Conditions,0.0,0.0
+2026-03,Respiratory Disease,7.0,1.0
+2026-04,Cardiovascular Disease,15.0,2.0
+2026-04,Diabetes Mellitus,16.0,3.0
+2026-04,Gastrointestinal Disease,33.0,5.0
+2026-04,Infectious Disease,144.0,19.0
+2026-04,Neurological and Mental Health Conditions,0.0,0.0
+2026-04,Pain and Inflammatory Conditions,44.0,5.0
+2026-04,Respiratory Disease,0.0,0.0
+2026-05,Cardiovascular Disease,54.0,4.0
+2026-05,Diabetes Mellitus,39.0,8.0
+2026-05,Gastrointestinal Disease,7.0,1.0
+2026-05,Infectious Disease,10.0,3.0
+2026-05,Neurological and Mental Health Conditions,7.0,2.0
+2026-05,Pain and Inflammatory Conditions,273.0,13.0
+2026-05,Respiratory Disease,37.0,4.0
+2026-06,Cardiovascular Disease,10.0,1.0
+2026-06,Diabetes Mellitus,49.0,6.0
+2026-06,Gastrointestinal Disease,8.0,2.0
+2026-06,Infectious Disease,9.0,2.0
+2026-06,Neurological and Mental Health Conditions,47.0,8.0
+2026-06,Pain and Inflammatory Conditions,197.0,13.0
+2026-06,Respiratory Disease,47.0,5.0

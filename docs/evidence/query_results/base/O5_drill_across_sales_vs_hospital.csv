@@ -1,0 +1,253 @@
+year_month,disease_category,pharmacy_units,hospital_consumed,hospital_forecast
+2023-01,Cardiovascular Disease,,31184.0,30165.0
+2023-01,Diabetes Mellitus,1.0,24545.0,23779.0
+2023-01,Gastrointestinal Disease,,14958.0,15157.0
+2023-01,Infectious Disease,,22417.0,21806.0
+2023-01,Neurological and Mental Health Conditions,2.0,18052.0,17295.0
+2023-01,Pain and Inflammatory Conditions,,32518.0,31348.0
+2023-01,Respiratory Disease,,27635.0,26736.0
+2023-02,Cardiovascular Disease,342.0,30963.0,30188.0
+2023-02,Diabetes Mellitus,305.0,18499.0,18625.0
+2023-02,Gastrointestinal Disease,30.0,14758.0,14888.0
+2023-02,Infectious Disease,286.0,22489.0,21974.0
+2023-02,Neurological and Mental Health Conditions,416.0,13600.0,13684.0
+2023-02,Pain and Inflammatory Conditions,125.0,32819.0,31515.0
+2023-02,Respiratory Disease,236.0,27673.0,27017.0
+2023-03,Cardiovascular Disease,828.0,24008.0,24197.0
+2023-03,Diabetes Mellitus,647.0,18918.0,18834.0
+2023-03,Gastrointestinal Disease,105.0,14868.0,14993.0
+2023-03,Infectious Disease,877.0,17555.0,17750.0
+2023-03,Neurological and Mental Health Conditions,699.0,13644.0,13792.0
+2023-03,Pain and Inflammatory Conditions,434.0,25265.0,25543.0
+2023-03,Respiratory Disease,722.0,27547.0,26887.0
+2023-04,Cardiovascular Disease,1252.0,24306.0,24093.0
+2023-04,Diabetes Mellitus,843.0,18789.0,18789.0
+2023-04,Gastrointestinal Disease,396.0,19337.0,18840.0
+2023-04,Infectious Disease,1263.0,17591.0,17610.0
+2023-04,Neurological and Mental Health Conditions,654.0,17563.0,17321.0
+2023-04,Pain and Inflammatory Conditions,761.0,24736.0,24929.0
+2023-04,Respiratory Disease,1050.0,21492.0,21598.0
+2023-05,Cardiovascular Disease,1363.0,23990.0,24119.0
+2023-05,Diabetes Mellitus,1339.0,18529.0,18788.0
+2023-05,Gastrointestinal Disease,1134.0,19985.0,19229.0
+2023-05,Infectious Disease,1725.0,17410.0,17504.0
+2023-05,Neurological and Mental Health Conditions,1100.0,13564.0,13608.0
+2023-05,Pain and Inflammatory Conditions,942.0,24971.0,25067.0
+2023-05,Respiratory Disease,1501.0,21220.0,21403.0
+2023-06,Cardiovascular Disease,1551.0,23563.0,23641.0
+2023-06,Diabetes Mellitus,1504.0,18852.0,18801.0
+2023-06,Gastrointestinal Disease,1469.0,19201.0,18990.0
+2023-06,Infectious Disease,1871.0,17876.0,17830.0
+2023-06,Neurological and Mental Health Conditions,1616.0,13572.0,13644.0
+2023-06,Pain and Inflammatory Conditions,1073.0,32583.0,31727.0
+2023-06,Respiratory Disease,1469.0,21250.0,21379.0
+2023-07,Cardiovascular Disease,1723.0,23363.0,23786.0
+2023-07,Diabetes Mellitus,1661.0,18869.0,19038.0
+2023-07,Gastrointestinal Disease,2051.0,19690.0,19138.0
+2023-07,Infectious Disease,1958.0,22953.0,22462.0
+2023-07,Neurological and Mental Health Conditions,1784.0,17936.0,17606.0
+2023-07,Pain and Inflammatory Conditions,1397.0,32835.0,31992.0
+2023-07,Respiratory Disease,1472.0,21292.0,21146.0
+2023-08,Cardiovascular Disease,2225.0,23668.0,23611.0
+2023-08,Diabetes Mellitus,2201.0,18900.0,19065.0
+2023-08,Gastrointestinal Disease,3634.0,19280.0,18617.0
+2023-08,Infectious Disease,2300.0,22847.0,22388.0
+2023-08,Neurological and Mental Health Conditions,2690.0,13761.0,13864.0
+2023-08,Pain and Inflammatory Conditions,1987.0,25406.0,25111.0
+2023-08,Respiratory Disease,1581.0,20708.0,21009.0
+2023-09,Cardiovascular Disease,2342.0,23237.0,23575.0
+2023-09,Diabetes Mellitus,2242.0,18434.0,18571.0
+2023-09,Gastrointestinal Disease,4597.0,15092.0,15125.0
+2023-09,Infectious Disease,3044.0,17385.0,17545.0
+2023-09,Neurological and Mental Health Conditions,3282.0,13501.0,13605.0
+2023-09,Pain and Inflammatory Conditions,3068.0,24709.0,24975.0
+2023-09,Respiratory Disease,1642.0,21077.0,21382.0
+2023-10,Cardiovascular Disease,2071.0,23706.0,23796.0
+2023-10,Diabetes Mellitus,2238.0,19080.0,19103.0
+2023-10,Gastrointestinal Disease,5160.0,15083.0,15022.0
+2023-10,Infectious Disease,3446.0,17037.0,16996.0
+2023-10,Neurological and Mental Health Conditions,2898.0,17921.0,17275.0
+2023-10,Pain and Inflammatory Conditions,3021.0,24443.0,24645.0
+2023-10,Respiratory Disease,1644.0,28006.0,26960.0
+2023-11,Cardiovascular Disease,2407.0,31119.0,30196.0
+2023-11,Diabetes Mellitus,3964.0,24383.0,23935.0
+2023-11,Gastrointestinal Disease,6897.0,15330.0,15354.0
+2023-11,Infectious Disease,3810.0,23415.0,22336.0
+2023-11,Neurological and Mental Health Conditions,4330.0,13413.0,13508.0
+2023-11,Pain and Inflammatory Conditions,3791.0,32400.0,31520.0
+2023-11,Respiratory Disease,2367.0,27799.0,27088.0
+2023-12,Cardiovascular Disease,6165.0,30671.0,29862.0
+2023-12,Diabetes Mellitus,9951.0,24374.0,24073.0
+2023-12,Gastrointestinal Disease,9404.0,14872.0,14946.0
+2023-12,Infectious Disease,6158.0,22725.0,21854.0
+2023-12,Neurological and Mental Health Conditions,6317.0,13360.0,13545.0
+2023-12,Pain and Inflammatory Conditions,7384.0,31880.0,31320.0
+2023-12,Respiratory Disease,10397.0,27160.0,26577.0
+2024-01,Cardiovascular Disease,7800.0,32178.0,30737.0
+2024-01,Diabetes Mellitus,7661.0,25274.0,24540.0
+2024-01,Gastrointestinal Disease,9424.0,15643.0,15691.0
+2024-01,Infectious Disease,9024.0,24538.0,23226.0
+2024-01,Neurological and Mental Health Conditions,8407.0,18762.0,18083.0
+2024-01,Pain and Inflammatory Conditions,6360.0,33340.0,32721.0
+2024-01,Respiratory Disease,7104.0,29016.0,28205.0
+2024-02,Cardiovascular Disease,1794.0,31630.0,30804.0
+2024-02,Diabetes Mellitus,1579.0,19504.0,19736.0
+2024-02,Gastrointestinal Disease,3158.0,15432.0,15478.0
+2024-02,Infectious Disease,1623.0,23536.0,23123.0
+2024-02,Neurological and Mental Health Conditions,1730.0,14179.0,14166.0
+2024-02,Pain and Inflammatory Conditions,2016.0,33937.0,32840.0
+2024-02,Respiratory Disease,1320.0,28481.0,28134.0
+2024-03,Cardiovascular Disease,2057.0,25115.0,25195.0
+2024-03,Diabetes Mellitus,1760.0,19550.0,19632.0
+2024-03,Gastrointestinal Disease,2729.0,15376.0,15490.0
+2024-03,Infectious Disease,1887.0,18245.0,18477.0
+2024-03,Neurological and Mental Health Conditions,1981.0,14270.0,14281.0
+2024-03,Pain and Inflammatory Conditions,1928.0,26044.0,26515.0
+2024-03,Respiratory Disease,1660.0,28832.0,27958.0
+2024-04,Cardiovascular Disease,1754.0,24465.0,24434.0
+2024-04,Diabetes Mellitus,1215.0,19612.0,19659.0
+2024-04,Gastrointestinal Disease,1344.0,20123.0,19422.0
+2024-04,Infectious Disease,1848.0,17789.0,17879.0
+2024-04,Neurological and Mental Health Conditions,1351.0,18539.0,18006.0
+2024-04,Pain and Inflammatory Conditions,1597.0,25327.0,25278.0
+2024-04,Respiratory Disease,1779.0,21796.0,21968.0
+2024-05,Cardiovascular Disease,1902.0,24525.0,24665.0
+2024-05,Diabetes Mellitus,1361.0,19416.0,19664.0
+2024-05,Gastrointestinal Disease,1077.0,20194.0,19543.0
+2024-05,Infectious Disease,1450.0,18065.0,18191.0
+2024-05,Neurological and Mental Health Conditions,1110.0,14193.0,14248.0
+2024-05,Pain and Inflammatory Conditions,1228.0,25166.0,25408.0
+2024-05,Respiratory Disease,1942.0,21454.0,21600.0
+2024-06,Cardiovascular Disease,1799.0,24889.0,25188.0
+2024-06,Diabetes Mellitus,1333.0,19219.0,19292.0
+2024-06,Gastrointestinal Disease,1033.0,19618.0,19229.0
+2024-06,Infectious Disease,1395.0,17788.0,17822.0
+2024-06,Neurological and Mental Health Conditions,1282.0,14158.0,14195.0
+2024-06,Pain and Inflammatory Conditions,1207.0,33799.0,32879.0
+2024-06,Respiratory Disease,1847.0,21962.0,22094.0
+2024-07,Cardiovascular Disease,1763.0,24260.0,24415.0
+2024-07,Diabetes Mellitus,1142.0,19468.0,19541.0
+2024-07,Gastrointestinal Disease,942.0,20258.0,19585.0
+2024-07,Infectious Disease,1411.0,23654.0,23028.0
+2024-07,Neurological and Mental Health Conditions,1070.0,18580.0,17671.0
+2024-07,Pain and Inflammatory Conditions,1269.0,34244.0,33184.0
+2024-07,Respiratory Disease,1744.0,22138.0,22246.0
+2024-08,Cardiovascular Disease,1582.0,24252.0,24511.0
+2024-08,Diabetes Mellitus,765.0,19647.0,19603.0
+2024-08,Gastrointestinal Disease,1507.0,20423.0,19906.0
+2024-08,Infectious Disease,1359.0,23782.0,23134.0
+2024-08,Neurological and Mental Health Conditions,1352.0,14107.0,14067.0
+2024-08,Pain and Inflammatory Conditions,1181.0,25611.0,25929.0
+2024-08,Respiratory Disease,1292.0,22025.0,21910.0
+2024-09,Cardiovascular Disease,1362.0,24436.0,24492.0
+2024-09,Diabetes Mellitus,838.0,19207.0,19258.0
+2024-09,Gastrointestinal Disease,2381.0,15227.0,15321.0
+2024-09,Infectious Disease,1638.0,17917.0,18122.0
+2024-09,Neurological and Mental Health Conditions,1987.0,14444.0,14473.0
+2024-09,Pain and Inflammatory Conditions,1207.0,25955.0,25997.0
+2024-09,Respiratory Disease,1013.0,21926.0,22189.0
+2024-10,Cardiovascular Disease,1073.0,24231.0,24481.0
+2024-10,Diabetes Mellitus,1244.0,19414.0,19405.0
+2024-10,Gastrointestinal Disease,2760.0,15787.0,15941.0
+2024-10,Infectious Disease,2063.0,18081.0,18068.0
+2024-10,Neurological and Mental Health Conditions,2199.0,18414.0,18054.0
+2024-10,Pain and Inflammatory Conditions,1395.0,26254.0,26197.0
+2024-10,Respiratory Disease,861.0,28946.0,27857.0
+2024-11,Cardiovascular Disease,1174.0,32545.0,31617.0
+2024-11,Diabetes Mellitus,1664.0,25862.0,24791.0
+2024-11,Gastrointestinal Disease,2837.0,15538.0,15667.0
+2024-11,Infectious Disease,1844.0,23450.0,22780.0
+2024-11,Neurological and Mental Health Conditions,2244.0,13976.0,14089.0
+2024-11,Pain and Inflammatory Conditions,1201.0,34113.0,32864.0
+2024-11,Respiratory Disease,1288.0,29037.0,28351.0
+2024-12,Cardiovascular Disease,4600.0,32265.0,31213.0
+2024-12,Diabetes Mellitus,2899.0,25273.0,24799.0
+2024-12,Gastrointestinal Disease,3546.0,15927.0,15750.0
+2024-12,Infectious Disease,4315.0,23472.0,22940.0
+2024-12,Neurological and Mental Health Conditions,4998.0,14095.0,14086.0
+2024-12,Pain and Inflammatory Conditions,4410.0,34014.0,33081.0
+2024-12,Respiratory Disease,5045.0,28434.0,27493.0
+2025-01,Cardiovascular Disease,16998.0,33096.0,32579.0
+2025-01,Diabetes Mellitus,14088.0,25420.0,25012.0
+2025-01,Gastrointestinal Disease,18031.0,15722.0,15970.0
+2025-01,Infectious Disease,17561.0,24599.0,23828.0
+2025-01,Neurological and Mental Health Conditions,15936.0,18947.0,18778.0
+2025-01,Pain and Inflammatory Conditions,14312.0,34960.0,34109.0
+2025-01,Respiratory Disease,16179.0,29361.0,28508.0
+2025-02,Cardiovascular Disease,913.0,33161.0,32030.0
+2025-02,Diabetes Mellitus,1085.0,20139.0,20195.0
+2025-02,Gastrointestinal Disease,2139.0,16122.0,16146.0
+2025-02,Infectious Disease,1353.0,24529.0,23918.0
+2025-02,Neurological and Mental Health Conditions,1482.0,14659.0,14659.0
+2025-02,Pain and Inflammatory Conditions,1333.0,34749.0,33626.0
+2025-02,Respiratory Disease,908.0,29605.0,28636.0
+2025-03,Cardiovascular Disease,1098.0,25661.0,25771.0
+2025-03,Diabetes Mellitus,1015.0,19633.0,19797.0
+2025-03,Gastrointestinal Disease,1954.0,15794.0,15891.0
+2025-03,Infectious Disease,1598.0,18229.0,18431.0
+2025-03,Neurological and Mental Health Conditions,1844.0,14174.0,14491.0
+2025-03,Pain and Inflammatory Conditions,1335.0,27192.0,27351.0
+2025-03,Respiratory Disease,1152.0,29878.0,28983.0
+2025-04,Cardiovascular Disease,1115.0,25441.0,25686.0
+2025-04,Diabetes Mellitus,1058.0,19712.0,19975.0
+2025-04,Gastrointestinal Disease,1192.0,21285.0,20668.0
+2025-04,Infectious Disease,1395.0,18893.0,18729.0
+2025-04,Neurological and Mental Health Conditions,1314.0,18917.0,18622.0
+2025-04,Pain and Inflammatory Conditions,1092.0,26705.0,26911.0
+2025-04,Respiratory Disease,1349.0,22776.0,22727.0
+2025-05,Cardiovascular Disease,1102.0,25657.0,25600.0
+2025-05,Diabetes Mellitus,986.0,20242.0,20275.0
+2025-05,Gastrointestinal Disease,661.0,20603.0,20052.0
+2025-05,Infectious Disease,1158.0,18510.0,18599.0
+2025-05,Neurological and Mental Health Conditions,970.0,14904.0,14813.0
+2025-05,Pain and Inflammatory Conditions,1148.0,26339.0,26760.0
+2025-05,Respiratory Disease,1469.0,22264.0,22572.0
+2025-06,Cardiovascular Disease,1046.0,25759.0,25811.0
+2025-06,Diabetes Mellitus,834.0,19856.0,19867.0
+2025-06,Gastrointestinal Disease,565.0,20972.0,20421.0
+2025-06,Infectious Disease,984.0,18126.0,18213.0
+2025-06,Neurological and Mental Health Conditions,885.0,14744.0,14714.0
+2025-06,Pain and Inflammatory Conditions,1134.0,34604.0,33561.0
+2025-06,Respiratory Disease,1526.0,23089.0,23034.0
+2025-07,Cardiovascular Disease,1041.0,26033.0,26276.0
+2025-07,Diabetes Mellitus,759.0,19940.0,20151.0
+2025-07,Gastrointestinal Disease,744.0,21383.0,20706.0
+2025-07,Infectious Disease,979.0,24260.0,23607.0
+2025-07,Neurological and Mental Health Conditions,967.0,19001.0,18618.0
+2025-07,Pain and Inflammatory Conditions,1219.0,34820.0,33400.0
+2025-07,Respiratory Disease,1436.0,22636.0,22830.0
+2025-08,Cardiovascular Disease,835.0,25403.0,25512.0
+2025-08,Diabetes Mellitus,690.0,20068.0,20252.0
+2025-08,Gastrointestinal Disease,1018.0,21257.0,20684.0
+2025-08,Infectious Disease,1217.0,24123.0,23645.0
+2025-08,Neurological and Mental Health Conditions,909.0,15026.0,15147.0
+2025-08,Pain and Inflammatory Conditions,1252.0,26773.0,26968.0
+2025-08,Respiratory Disease,1187.0,22853.0,23055.0
+2025-09,Cardiovascular Disease,754.0,25288.0,25128.0
+2025-09,Diabetes Mellitus,535.0,20015.0,20085.0
+2025-09,Gastrointestinal Disease,1220.0,15849.0,15990.0
+2025-09,Infectious Disease,1424.0,18851.0,18818.0
+2025-09,Neurological and Mental Health Conditions,1019.0,14750.0,14821.0
+2025-09,Pain and Inflammatory Conditions,1143.0,26833.0,27070.0
+2025-09,Respiratory Disease,885.0,22877.0,23244.0
+2025-10,Cardiovascular Disease,786.0,25042.0,25303.0
+2025-10,Diabetes Mellitus,967.0,19619.0,19874.0
+2025-10,Gastrointestinal Disease,1846.0,16439.0,16399.0
+2025-10,Infectious Disease,1675.0,18496.0,18723.0
+2025-10,Neurological and Mental Health Conditions,1159.0,19653.0,19022.0
+2025-10,Pain and Inflammatory Conditions,1170.0,26469.0,26805.0
+2025-10,Respiratory Disease,761.0,29420.0,28347.0
+2025-11,Cardiovascular Disease,1250.0,33244.0,32498.0
+2025-11,Diabetes Mellitus,1472.0,26414.0,25563.0
+2025-11,Gastrointestinal Disease,2113.0,16169.0,16425.0
+2025-11,Infectious Disease,1835.0,24789.0,24349.0
+2025-11,Neurological and Mental Health Conditions,2076.0,14626.0,14577.0
+2025-11,Pain and Inflammatory Conditions,1092.0,34677.0,33943.0
+2025-11,Respiratory Disease,938.0,29692.0,28739.0
+2025-12,Cardiovascular Disease,2428.0,33527.0,32036.0
+2025-12,Diabetes Mellitus,2721.0,26220.0,25461.0
+2025-12,Gastrointestinal Disease,2289.0,15764.0,16066.0
+2025-12,Infectious Disease,2458.0,24066.0,23475.0
+2025-12,Neurological and Mental Health Conditions,3823.0,14801.0,15056.0
+2025-12,Pain and Inflammatory Conditions,2539.0,34583.0,33897.0
+2025-12,Respiratory Disease,1893.0,29646.0,28841.0

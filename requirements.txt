@@ -1,0 +1,11 @@
+# runtime deps for the pipeline (installed into the Airflow image and the ingestion API)
+pandas>=2.2,<3.2
+numpy>=1.26
+duckdb==1.4.2
+psycopg2-binary>=2.9
+fastapi>=0.110
+uvicorn>=0.29
+watchdog>=4.0
+requests>=2.31
+pyarrow>=15
+matplotlib>=3.8

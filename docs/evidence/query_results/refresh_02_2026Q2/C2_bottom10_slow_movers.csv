@@ -1,0 +1,11 @@
+medicine_id,generic_name,disease_category,therapeutic_class,cold_chain_flag,units_90d,net_90d
+MED042,Ondansetron,Gastrointestinal Disease,5-HT3 antagonist,N,12.0,81.22
+MED009,Semaglutide,Diabetes Mellitus,GLP-1 receptor agonist,Y,20.0,2404.52
+MED016,Rosuvastatin,Cardiovascular Disease,Lipid-modifying agent,N,41.0,267.23
+MED008,Insulin Aspart,Diabetes Mellitus,Rapid-acting insulin,Y,85.0,4114.8
+MED052,Sodium Valproate,Neurological and Mental Health Conditions,Antiepileptic,N,86.0,583.3
+MED035,Fluconazole,Infectious Disease,Triazole antifungal,N,92.0,419.83
+MED004,Empagliflozin,Diabetes Mellitus,SGLT2 inhibitor,N,96.0,1736.91
+MED040,Famotidine,Gastrointestinal Disease,H2-receptor antagonist,N,109.0,513.77
+MED041,Domperidone,Gastrointestinal Disease,Prokinetic antiemetic,N,120.0,469.62
+MED038,Esomeprazole,Gastrointestinal Disease,Proton-pump inhibitor,N,135.0,796.65

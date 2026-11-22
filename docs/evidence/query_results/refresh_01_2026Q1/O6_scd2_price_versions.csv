@@ -1,0 +1,13 @@
+medicine_id,generic_name,version,retail_price_usd,effective_from,effective_to,is_current,txns,net_sales
+MED002,Gliclazide MR,1,6.34,1900-01-01,2025-12-31,False,11022,82127.89
+MED002,Gliclazide MR,2,6.67,2026-01-01,9999-12-31,True,574,4476.83
+MED003,Sitagliptin,1,19.14,1900-01-01,2025-12-31,False,7569,170686.82
+MED003,Sitagliptin,2,20.12,2026-01-01,9999-12-31,True,330,7862.45
+MED025,Fluticasone Propionate,1,20.46,1900-01-01,2025-12-31,False,6560,157824.52
+MED025,Fluticasone Propionate,2,21.34,2026-01-01,9999-12-31,True,395,9573.13
+MED030,Ciprofloxacin,1,6.6,1900-01-01,2025-12-31,False,7289,56738.17
+MED030,Ciprofloxacin,2,7.05,2026-01-01,9999-12-31,True,337,2800.4
+MED036,Acyclovir,1,9.5,1900-01-01,2025-12-31,False,4593,51218.55
+MED036,Acyclovir,2,10.24,2026-01-01,9999-12-31,True,399,4913.61
+MED039,Pantoprazole,1,5.28,1900-01-01,2025-12-31,False,8933,55783.09
+MED039,Pantoprazole,2,5.67,2026-01-01,9999-12-31,True,600,4015.37

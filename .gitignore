@@ -1,0 +1,20 @@
+# instructor dataset (05_pharmacy_sales_data.csv is 218 MB > GitHub 100 MB limit)
+data/raw/*.csv
+# runtime state
+data/landing/
+data/stream_queue/
+data/processed/
+data/warehouse/
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+logs/
+
+# LaTeX build artefacts (the submitted PDF lives in deliverables/)
+docs/report_latex/*.aux
+docs/report_latex/*.log
+docs/report_latex/*.out
+docs/report_latex/*.fls
+docs/report_latex/*.fdb_latexmk
+docs/report_latex/main.pdf

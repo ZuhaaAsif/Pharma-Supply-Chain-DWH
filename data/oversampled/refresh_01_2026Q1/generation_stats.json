@@ -1,0 +1,134 @@
+{
+  "refresh": "refresh_01_2026Q1",
+  "window": [
+    "2026-01-01",
+    "2026-03-31"
+  ],
+  "template_window": [
+    "2025-01-02",
+    "2025-04-01"
+  ],
+  "malformed_rate": 0.003,
+  "price_changes": [
+    "MED030",
+    "MED025",
+    "MED003",
+    "MED002",
+    "MED036",
+    "MED039"
+  ],
+  "files": [
+    {
+      "source_key": "master",
+      "file": "01_master_data.csv",
+      "window_start": "2026-01-01",
+      "window_end": "2026-03-31",
+      "template_rows": 63,
+      "growth_factor": 1.0,
+      "rows_generated": 63,
+      "malformed_injected": 0,
+      "malformed_breakdown": {},
+      "notes": "full snapshot; 6 SKUs re-priced (+3..8%) -> SCD2 versions: MED030, MED025, MED003, MED002, MED036, MED039",
+      "output": "/home/claude/repo/data/oversampled/refresh_01_2026Q1/01_master_data.csv"
+    },
+    {
+      "source_key": "manufacturing",
+      "file": "02_manufacturing_data.csv",
+      "window_start": "2026-01-01",
+      "window_end": "2026-03-31",
+      "template_rows": 57,
+      "growth_factor": 0.9841269841269841,
+      "rows_generated": 56,
+      "malformed_injected": 1,
+      "malformed_breakdown": {
+        "null_sku": 1
+      },
+      "notes": "",
+      "output": "/home/claude/repo/data/oversampled/refresh_01_2026Q1/02_manufacturing_data.csv"
+    },
+    {
+      "source_key": "delivery",
+      "file": "03_manufacturer_delivery_data.csv",
+      "window_start": "2026-01-01",
+      "window_end": "2026-03-31",
+      "template_rows": 105,
+      "growth_factor": 1.003030303030303,
+      "rows_generated": 105,
+      "malformed_injected": 1,
+      "malformed_breakdown": {
+        "null_sku": 1
+      },
+      "notes": "87 shipments resampled as whole units (multi-line shipments preserved)",
+      "output": "/home/claude/repo/data/oversampled/refresh_01_2026Q1/03_manufacturer_delivery_data.csv"
+    },
+    {
+      "source_key": "warehouse",
+      "file": "04_warehouse_data.csv",
+      "window_start": "2026-01-01",
+      "window_end": "2026-03-31",
+      "template_rows": 12803,
+      "growth_factor": 1.25,
+      "rows_generated": 16004,
+      "malformed_injected": 34,
+      "malformed_breakdown": {
+        "bad_date": 11,
+        "null_sku": 14,
+        "duplicate_pk": 9
+      },
+      "notes": "305 lot trajectories resampled; DaysToExpiry recomputed",
+      "output": "/home/claude/repo/data/oversampled/refresh_01_2026Q1/04_warehouse_data.csv"
+    },
+    {
+      "source_key": "sales",
+      "file": "05_pharmacy_sales_data.csv",
+      "window_start": "2026-01-01",
+      "window_end": "2026-03-31",
+      "template_rows": 28854,
+      "growth_factor": 0.9,
+      "rows_generated": 25969,
+      "malformed_injected": 77,
+      "malformed_breakdown": {
+        "duplicate_pk": 16,
+        "bad_number": 27,
+        "null_sku": 14,
+        "bad_date": 20
+      },
+      "notes": "price/COGS re-derived from current master; lineage re-pointed to new lots; anomalous spike days excluded from template: ['2024-01-01', '2025-01-01']",
+      "output": "/home/claude/repo/data/oversampled/refresh_01_2026Q1/05_pharmacy_sales_data.csv"
+    },
+    {
+      "source_key": "hospital_demand",
+      "file": "06_hospital_demand_data.csv",
+      "window_start": "2026-01-01",
+      "window_end": "2026-03-31",
+      "template_rows": 2268,
+      "growth_factor": 1.0330212868040303,
+      "rows_generated": 2268,
+      "malformed_injected": 6,
+      "malformed_breakdown": {
+        "null_sku": 1,
+        "bad_number": 3,
+        "duplicate_pk": 1,
+        "bad_date": 1
+      },
+      "notes": "complete 12x63xmonth panel; quantities x growth; stock rolled forward from last closing",
+      "output": "/home/claude/repo/data/oversampled/refresh_01_2026Q1/06_hospital_demand_data.csv"
+    },
+    {
+      "source_key": "iot",
+      "file": "07_iot_streaming_data.csv",
+      "window_start": "2026-01-01",
+      "window_end": "2026-03-31",
+      "template_rows": 25623,
+      "growth_factor": 0.9970704213930197,
+      "rows_generated": 25548,
+      "malformed_injected": 40,
+      "malformed_breakdown": {
+        "bad_date": 21,
+        "duplicate_pk": 19
+      },
+      "notes": "routed to stream_queue (replayed by the streaming DAG); breach flags recomputed",
+      "output": "/home/claude/repo/data/oversampled/refresh_01_2026Q1/07_iot_streaming_data.csv"
+    }
+  ]
+}

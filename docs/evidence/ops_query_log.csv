@@ -1,0 +1,208 @@
+query_log_id,executed_at,batch_label,query_name,widget,dashboard,variant,duration_ms,rows_returned,status,error_message,triggered_by
+1,2026-11-21 13:25:17.379054+00:00,base,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,1.934,12,SUCCESS,,airflow
+2,2026-11-21 13:25:17.379054+00:00,base,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,2.252,12,SUCCESS,,airflow
+3,2026-11-21 13:25:17.379054+00:00,base,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,1.835,12,SUCCESS,,airflow
+4,2026-11-21 13:25:17.379054+00:00,base,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.145,12,SUCCESS,,airflow
+5,2026-11-21 13:25:17.379054+00:00,base,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.133,12,SUCCESS,,airflow
+6,2026-11-21 13:25:17.379054+00:00,base,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.199,12,SUCCESS,,airflow
+7,2026-11-21 13:25:17.379054+00:00,base,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,2.924,252,SUCCESS,,airflow
+8,2026-11-21 13:25:17.379054+00:00,base,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,2.629,252,SUCCESS,,airflow
+9,2026-11-21 13:25:17.379054+00:00,base,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,2.901,252,SUCCESS,,airflow
+10,2026-11-21 13:25:17.379054+00:00,base,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,1.606,252,SUCCESS,,airflow
+11,2026-11-21 13:25:17.379054+00:00,base,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,1.565,252,SUCCESS,,airflow
+12,2026-11-21 13:25:17.379054+00:00,base,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,1.583,252,SUCCESS,,airflow
+13,2026-11-21 13:25:17.379054+00:00,base,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.431,36,SUCCESS,,airflow
+14,2026-11-21 13:25:17.379054+00:00,base,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.256,36,SUCCESS,,airflow
+15,2026-11-21 13:25:17.379054+00:00,base,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.221,36,SUCCESS,,airflow
+16,2026-11-21 13:25:17.379054+00:00,base,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.309,36,SUCCESS,,airflow
+17,2026-11-21 13:25:17.379054+00:00,base,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.332,36,SUCCESS,,airflow
+18,2026-11-21 13:25:17.379054+00:00,base,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.293,36,SUCCESS,,airflow
+19,2026-11-21 13:25:17.379054+00:00,base,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.174,3,SUCCESS,,airflow
+20,2026-11-21 13:25:17.379054+00:00,base,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.134,3,SUCCESS,,airflow
+21,2026-11-21 13:25:17.379054+00:00,base,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.137,3,SUCCESS,,airflow
+22,2026-11-21 13:25:17.379054+00:00,base,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.549,3,SUCCESS,,airflow
+23,2026-11-21 13:25:17.379054+00:00,base,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.491,3,SUCCESS,,airflow
+24,2026-11-21 13:25:17.379054+00:00,base,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.559,3,SUCCESS,,airflow
+25,2026-11-21 13:25:17.379054+00:00,base,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,9.111,108,SUCCESS,,airflow
+26,2026-11-21 13:25:17.379054+00:00,base,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,8.825,108,SUCCESS,,airflow
+27,2026-11-21 13:25:17.379054+00:00,base,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,8.57,108,SUCCESS,,airflow
+28,2026-11-21 13:25:17.379054+00:00,base,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.361,108,SUCCESS,,airflow
+29,2026-11-21 13:25:17.379054+00:00,base,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.395,108,SUCCESS,,airflow
+30,2026-11-21 13:25:17.379054+00:00,base,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.408,108,SUCCESS,,airflow
+31,2026-11-21 13:25:17.379054+00:00,base,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.058,21,SUCCESS,,airflow
+32,2026-11-21 13:25:17.379054+00:00,base,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.002,21,SUCCESS,,airflow
+33,2026-11-21 13:25:17.379054+00:00,base,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.084,21,SUCCESS,,airflow
+34,2026-11-21 13:25:17.379054+00:00,base,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.474,21,SUCCESS,,airflow
+35,2026-11-21 13:25:17.379054+00:00,base,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.46,21,SUCCESS,,airflow
+36,2026-11-21 13:25:17.379054+00:00,base,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.558,21,SUCCESS,,airflow
+37,2026-11-21 13:25:17.379054+00:00,base,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.826,10,SUCCESS,,airflow
+38,2026-11-21 13:25:17.379054+00:00,base,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.947,10,SUCCESS,,airflow
+39,2026-11-21 13:25:17.379054+00:00,base,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.777,10,SUCCESS,,airflow
+40,2026-11-21 13:25:17.379054+00:00,base,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.547,10,SUCCESS,,airflow
+41,2026-11-21 13:25:17.379054+00:00,base,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.626,10,SUCCESS,,airflow
+42,2026-11-21 13:25:17.379054+00:00,base,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.662,10,SUCCESS,,airflow
+43,2026-11-21 13:25:17.379054+00:00,base,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.633,63,SUCCESS,,airflow
+44,2026-11-21 13:25:17.379054+00:00,base,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.406,63,SUCCESS,,airflow
+45,2026-11-21 13:25:17.379054+00:00,base,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.602,63,SUCCESS,,airflow
+46,2026-11-21 13:25:17.379054+00:00,base,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.57,63,SUCCESS,,airflow
+47,2026-11-21 13:25:17.379054+00:00,base,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.62,63,SUCCESS,,airflow
+48,2026-11-21 13:25:17.379054+00:00,base,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.478,63,SUCCESS,,airflow
+49,2026-11-21 13:25:17.379054+00:00,base,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,22.568,38,SUCCESS,,airflow
+50,2026-11-21 13:25:17.379054+00:00,base,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,22.293,38,SUCCESS,,airflow
+51,2026-11-21 13:25:17.379054+00:00,base,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,21.93,38,SUCCESS,,airflow
+52,2026-11-21 13:25:17.379054+00:00,base,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,18.755,32,SUCCESS,,airflow
+53,2026-11-21 13:25:17.379054+00:00,base,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,18.366,32,SUCCESS,,airflow
+54,2026-11-21 13:25:17.379054+00:00,base,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,18.866,32,SUCCESS,,airflow
+55,2026-11-21 13:25:17.379054+00:00,base,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,2.777,7,SUCCESS,,airflow
+56,2026-11-21 13:25:17.379054+00:00,base,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,3.163,7,SUCCESS,,airflow
+57,2026-11-21 13:25:17.379054+00:00,base,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,2.758,7,SUCCESS,,airflow
+58,2026-11-21 13:25:17.379054+00:00,base,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,18.552,3,SUCCESS,,airflow
+59,2026-11-21 13:25:17.379054+00:00,base,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,18.571,3,SUCCESS,,airflow
+60,2026-11-21 13:25:17.379054+00:00,base,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,18.376,3,SUCCESS,,airflow
+61,2026-11-21 13:25:17.379054+00:00,base,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,11.207,252,SUCCESS,,airflow
+62,2026-11-21 13:25:17.379054+00:00,base,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,10.679,252,SUCCESS,,airflow
+63,2026-11-21 13:25:17.379054+00:00,base,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,11.006,252,SUCCESS,,airflow
+64,2026-11-21 13:25:17.379054+00:00,base,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,2.476,252,SUCCESS,,airflow
+65,2026-11-21 13:25:17.379054+00:00,base,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,2.622,252,SUCCESS,,airflow
+66,2026-11-21 13:25:17.379054+00:00,base,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,2.633,252,SUCCESS,,airflow
+67,2026-11-21 13:25:17.379054+00:00,base,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,1.938,0,SUCCESS,,airflow
+68,2026-11-21 13:25:17.379054+00:00,base,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,1.916,0,SUCCESS,,airflow
+69,2026-11-21 13:25:17.379054+00:00,base,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,1.937,0,SUCCESS,,airflow
+70,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,2.851,12,SUCCESS,,airflow
+71,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,2.167,12,SUCCESS,,airflow
+72,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,2.054,12,SUCCESS,,airflow
+73,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.25,12,SUCCESS,,airflow
+74,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.136,12,SUCCESS,,airflow
+75,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.147,12,SUCCESS,,airflow
+76,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,2.996,273,SUCCESS,,airflow
+77,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,2.942,273,SUCCESS,,airflow
+78,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,2.894,273,SUCCESS,,airflow
+79,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,1.623,273,SUCCESS,,airflow
+80,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,1.687,273,SUCCESS,,airflow
+81,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,1.587,273,SUCCESS,,airflow
+82,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.34,39,SUCCESS,,airflow
+83,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.318,39,SUCCESS,,airflow
+84,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.28,39,SUCCESS,,airflow
+85,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.409,39,SUCCESS,,airflow
+86,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.366,39,SUCCESS,,airflow
+87,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.378,39,SUCCESS,,airflow
+88,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.953,3,SUCCESS,,airflow
+89,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.688,3,SUCCESS,,airflow
+90,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.698,3,SUCCESS,,airflow
+91,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.719,3,SUCCESS,,airflow
+92,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.547,3,SUCCESS,,airflow
+93,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.602,3,SUCCESS,,airflow
+94,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,9.484,117,SUCCESS,,airflow
+95,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,9.539,117,SUCCESS,,airflow
+96,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,9.374,117,SUCCESS,,airflow
+97,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.584,117,SUCCESS,,airflow
+98,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.482,117,SUCCESS,,airflow
+99,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.405,117,SUCCESS,,airflow
+100,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.568,21,SUCCESS,,airflow
+101,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.57,21,SUCCESS,,airflow
+102,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.367,21,SUCCESS,,airflow
+103,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.434,21,SUCCESS,,airflow
+104,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.507,21,SUCCESS,,airflow
+105,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.442,21,SUCCESS,,airflow
+106,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.871,10,SUCCESS,,airflow
+107,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.806,10,SUCCESS,,airflow
+108,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.795,10,SUCCESS,,airflow
+109,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.561,10,SUCCESS,,airflow
+110,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.637,10,SUCCESS,,airflow
+111,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.647,10,SUCCESS,,airflow
+112,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.953,63,SUCCESS,,airflow
+113,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.989,63,SUCCESS,,airflow
+114,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.904,63,SUCCESS,,airflow
+115,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.457,63,SUCCESS,,airflow
+116,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.477,63,SUCCESS,,airflow
+117,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.685,63,SUCCESS,,airflow
+118,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,23.741,38,SUCCESS,,airflow
+119,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,23.112,38,SUCCESS,,airflow
+120,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,22.87,38,SUCCESS,,airflow
+121,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,19.553,32,SUCCESS,,airflow
+122,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,20.277,32,SUCCESS,,airflow
+123,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,19.579,32,SUCCESS,,airflow
+124,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,2.702,7,SUCCESS,,airflow
+125,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,2.629,7,SUCCESS,,airflow
+126,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,2.658,7,SUCCESS,,airflow
+127,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,20.528,3,SUCCESS,,airflow
+128,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,19.74,3,SUCCESS,,airflow
+129,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,19.908,3,SUCCESS,,airflow
+130,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,11.174,273,SUCCESS,,airflow
+131,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,11.078,273,SUCCESS,,airflow
+132,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,11.506,273,SUCCESS,,airflow
+133,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,2.76,273,SUCCESS,,airflow
+134,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,2.74,273,SUCCESS,,airflow
+135,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,2.506,273,SUCCESS,,airflow
+136,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,16.55,12,SUCCESS,,airflow
+137,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,15.364,12,SUCCESS,,airflow
+138,2026-11-21 13:26:01.663281+00:00,refresh_01_2026Q1,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,15.468,12,SUCCESS,,airflow
+139,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,3.089,12,SUCCESS,,airflow
+140,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,2.437,12,SUCCESS,,airflow
+141,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,baseline,2.405,12,SUCCESS,,airflow
+142,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.397,12,SUCCESS,,airflow
+143,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.263,12,SUCCESS,,airflow
+144,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A1_forecast_vs_actual_by_hospital,Forecast vs Actual ratio by hospital (bar),A Hospital Forecast vs Actual,optimized,1.367,12,SUCCESS,,airflow
+145,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,3.532,294,SUCCESS,,airflow
+146,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,3.05,294,SUCCESS,,airflow
+147,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,baseline,2.969,294,SUCCESS,,airflow
+148,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,2.275,294,SUCCESS,,airflow
+149,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,1.774,294,SUCCESS,,airflow
+150,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A2_unfulfilled_by_category_month,Unfulfilled demand heatmap (category x month),A Hospital Forecast vs Actual,optimized,1.809,294,SUCCESS,,airflow
+151,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.654,42,SUCCESS,,airflow
+152,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.615,42,SUCCESS,,airflow
+153,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,baseline,2.573,42,SUCCESS,,airflow
+154,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.666,42,SUCCESS,,airflow
+155,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.509,42,SUCCESS,,airflow
+156,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,A3_forecast_error_trend,Monthly forecast bias & MAPE (line),A Hospital Forecast vs Actual,optimized,1.598,42,SUCCESS,,airflow
+157,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.848,3,SUCCESS,,airflow
+158,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.717,3,SUCCESS,,airflow
+159,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,baseline,8.64,3,SUCCESS,,airflow
+160,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.617,3,SUCCESS,,airflow
+161,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.653,3,SUCCESS,,airflow
+162,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B1_channel_kpis,KPI cards: Net revenue / GM% / Units / Transactions,B Channel Revenue & Margin,optimized,1.758,3,SUCCESS,,airflow
+163,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,9.963,126,SUCCESS,,airflow
+164,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,9.439,126,SUCCESS,,airflow
+165,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,baseline,9.367,126,SUCCESS,,airflow
+166,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.496,126,SUCCESS,,airflow
+167,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.51,126,SUCCESS,,airflow
+168,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B2_channel_monthly_trend,Monthly net revenue by channel (stacked area),B Channel Revenue & Margin,optimized,1.528,126,SUCCESS,,airflow
+169,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.781,21,SUCCESS,,airflow
+170,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.738,21,SUCCESS,,airflow
+171,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,baseline,10.52,21,SUCCESS,,airflow
+172,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.544,21,SUCCESS,,airflow
+173,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.671,21,SUCCESS,,airflow
+174,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,B3_margin_by_category_channel,Gross margin % matrix (disease category x channel),B Channel Revenue & Margin,optimized,1.813,21,SUCCESS,,airflow
+175,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.508,10,SUCCESS,,airflow
+176,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.509,10,SUCCESS,,airflow
+177,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C1_top10_fast_movers,Top-10 fast-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.399,10,SUCCESS,,airflow
+178,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.51,10,SUCCESS,,airflow
+179,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.432,10,SUCCESS,,airflow
+180,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C2_bottom10_slow_movers,Bottom-10 slow-moving medicines (last 90 days),C Fast vs Slow Movers,baseline,4.257,10,SUCCESS,,airflow
+181,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.917,63,SUCCESS,,airflow
+182,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.951,63,SUCCESS,,airflow
+183,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,baseline,10.803,63,SUCCESS,,airflow
+184,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.675,63,SUCCESS,,airflow
+185,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.626,63,SUCCESS,,airflow
+186,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,C3_velocity_rank_by_category,Velocity rank within each disease category (table),C Fast vs Slow Movers,optimized,2.535,63,SUCCESS,,airflow
+187,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,23.46,38,SUCCESS,,airflow
+188,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,22.921,38,SUCCESS,,airflow
+189,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O1_rollup_region_state,OLAP roll-up: region > state > city,OLAP,baseline,23.043,38,SUCCESS,,airflow
+190,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,19.505,32,SUCCESS,,airflow
+191,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,19.409,32,SUCCESS,,airflow
+192,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O2_cube_channel_category,OLAP cube: channel x disease category,OLAP,baseline,19.591,32,SUCCESS,,airflow
+193,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,2.806,7,SUCCESS,,airflow
+194,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,2.739,7,SUCCESS,,airflow
+195,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O3_slice_dice_2025_hospital_cold,"OLAP slice/dice: 2025, Hospital channel, cold-chain SKUs",OLAP,baseline,2.935,7,SUCCESS,,airflow
+196,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,20.893,3,SUCCESS,,airflow
+197,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,20.153,3,SUCCESS,,airflow
+198,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O4_pivot_year_channel,"OLAP pivot: net sales, years as columns",OLAP,baseline,19.99,3,SUCCESS,,airflow
+199,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,11.81,294,SUCCESS,,airflow
+200,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,11.866,294,SUCCESS,,airflow
+201,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,baseline,11.739,294,SUCCESS,,airflow
+202,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,3.037,294,SUCCESS,,airflow
+203,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,2.798,294,SUCCESS,,airflow
+204,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O5_drill_across_sales_vs_hospital,Drill-across: pharmacy units vs hospital consumption per month,OLAP,optimized,2.838,294,SUCCESS,,airflow
+205,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,15.937,24,SUCCESS,,airflow
+206,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,17.094,24,SUCCESS,,airflow
+207,2026-11-21 13:27:02.824072+00:00,refresh_02_2026Q2,O6_scd2_price_versions,SCD-2 audit: revenue by price version,OLAP,baseline,16.057,24,SUCCESS,,airflow

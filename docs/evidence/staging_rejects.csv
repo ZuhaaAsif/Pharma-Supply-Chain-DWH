@@ -1,0 +1,210 @@
+reject_id,source_key,batch_label,record_key,reason
+1,manufacturing,refresh_01_2026Q1,MO-2026-00049,R2 null SKU (MedicineID)
+2,delivery,refresh_01_2026Q1,MFG-SHP-0000926|2,R2 null SKU (MedicineID)
+3,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+4,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+5,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+6,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+7,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+8,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+9,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+10,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+11,warehouse,refresh_01_2026Q1,INV-000112185,R7 duplicate key in batch
+12,warehouse,refresh_01_2026Q1,INV-000113676,R5 invalid date SnapshotDate
+13,warehouse,refresh_01_2026Q1,INV-000114369,R5 invalid date SnapshotDate
+14,warehouse,refresh_01_2026Q1,INV-000114393,R2 null SKU (MedicineID)
+15,warehouse,refresh_01_2026Q1,INV-000114796,R2 null SKU (MedicineID)
+16,warehouse,refresh_01_2026Q1,INV-000114812,R2 null SKU (MedicineID)
+17,warehouse,refresh_01_2026Q1,INV-000115114,R5 invalid date SnapshotDate
+18,warehouse,refresh_01_2026Q1,INV-000115339,R2 null SKU (MedicineID)
+19,warehouse,refresh_01_2026Q1,INV-000115788,R2 null SKU (MedicineID)
+20,warehouse,refresh_01_2026Q1,INV-000116586,R5 invalid date SnapshotDate
+21,warehouse,refresh_01_2026Q1,INV-000116824,R2 null SKU (MedicineID)
+22,warehouse,refresh_01_2026Q1,INV-000118551,R2 null SKU (MedicineID)
+23,warehouse,refresh_01_2026Q1,INV-000119862,R5 invalid date SnapshotDate
+24,warehouse,refresh_01_2026Q1,INV-000120486,R2 null SKU (MedicineID)
+25,warehouse,refresh_01_2026Q1,INV-000120530,R2 null SKU (MedicineID)
+26,warehouse,refresh_01_2026Q1,INV-000122014,R5 invalid date SnapshotDate
+27,warehouse,refresh_01_2026Q1,INV-000122313,R5 invalid date SnapshotDate
+28,warehouse,refresh_01_2026Q1,INV-000122759,R5 invalid date SnapshotDate
+29,warehouse,refresh_01_2026Q1,INV-000123365,R2 null SKU (MedicineID)
+30,warehouse,refresh_01_2026Q1,INV-000123843,R2 null SKU (MedicineID)
+31,warehouse,refresh_01_2026Q1,INV-000123893,R2 null SKU (MedicineID)
+32,warehouse,refresh_01_2026Q1,INV-000126169,R5 invalid date SnapshotDate
+33,warehouse,refresh_01_2026Q1,INV-000126338,R5 invalid date SnapshotDate
+34,warehouse,refresh_01_2026Q1,INV-000126763,R5 invalid date SnapshotDate
+35,warehouse,refresh_01_2026Q1,INV-000127145,R2 null SKU (MedicineID)
+36,warehouse,refresh_01_2026Q1,INV-000127328,R2 null SKU (MedicineID)
+37,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+38,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+39,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+40,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+41,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+42,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+43,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+44,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+45,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+46,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+47,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+48,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+49,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+50,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+51,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+52,sales,refresh_01_2026Q1,SALE-000500001,R7 duplicate key in batch
+53,sales,refresh_01_2026Q1,SALE-000500165,R5 invalid date SalesDate
+54,sales,refresh_01_2026Q1,SALE-000501032,R5 invalid date SalesDate
+55,sales,refresh_01_2026Q1,SALE-000501272,R5 invalid date SalesDate
+56,sales,refresh_01_2026Q1,SALE-000501294,R2 null SKU (MedicineID)
+57,sales,refresh_01_2026Q1,SALE-000501717,R4 non-positive UnitRetailPriceUSD
+58,sales,refresh_01_2026Q1,SALE-000502137,R5 invalid date SalesDate
+59,sales,refresh_01_2026Q1,SALE-000503525,R4 non-positive UnitRetailPriceUSD
+60,sales,refresh_01_2026Q1,SALE-000504119,R5 invalid date SalesDate
+61,sales,refresh_01_2026Q1,SALE-000504438,R5 invalid date SalesDate
+62,sales,refresh_01_2026Q1,SALE-000504891,R2 null SKU (MedicineID)
+63,sales,refresh_01_2026Q1,SALE-000504994,R4 non-positive UnitRetailPriceUSD
+64,sales,refresh_01_2026Q1,SALE-000505449,R4 non-positive UnitRetailPriceUSD
+65,sales,refresh_01_2026Q1,SALE-000505928,R2 null SKU (MedicineID)
+66,sales,refresh_01_2026Q1,SALE-000506918,R5 invalid date SalesDate
+67,sales,refresh_01_2026Q1,SALE-000507001,R5 invalid date SalesDate
+68,sales,refresh_01_2026Q1,SALE-000507204,R5 invalid date SalesDate
+69,sales,refresh_01_2026Q1,SALE-000507548,R2 null SKU (MedicineID)
+70,sales,refresh_01_2026Q1,SALE-000508431,R2 null SKU (MedicineID)
+71,sales,refresh_01_2026Q1,SALE-000508865,R2 null SKU (MedicineID)
+72,sales,refresh_01_2026Q1,SALE-000509232,R2 null SKU (MedicineID)
+73,sales,refresh_01_2026Q1,SALE-000509377,R4 non-positive UnitRetailPriceUSD
+74,sales,refresh_01_2026Q1,SALE-000509418,R4 non-positive UnitRetailPriceUSD
+75,sales,refresh_01_2026Q1,SALE-000509633,R4 non-positive UnitRetailPriceUSD
+76,sales,refresh_01_2026Q1,SALE-000510907,R2 null SKU (MedicineID)
+77,sales,refresh_01_2026Q1,SALE-000511353,R5 invalid date SalesDate
+78,sales,refresh_01_2026Q1,SALE-000512245,R2 null SKU (MedicineID)
+79,sales,refresh_01_2026Q1,SALE-000512470,R4 non-positive UnitRetailPriceUSD
+80,sales,refresh_01_2026Q1,SALE-000513329,R4 non-positive UnitRetailPriceUSD
+81,sales,refresh_01_2026Q1,SALE-000513664,R4 non-positive UnitRetailPriceUSD
+82,sales,refresh_01_2026Q1,SALE-000513741,R4 non-positive UnitRetailPriceUSD
+83,sales,refresh_01_2026Q1,SALE-000513827,R4 non-positive UnitRetailPriceUSD
+84,sales,refresh_01_2026Q1,SALE-000514093,R5 invalid date SalesDate
+85,sales,refresh_01_2026Q1,SALE-000514757,R5 invalid date SalesDate
+86,sales,refresh_01_2026Q1,SALE-000514950,R4 non-positive UnitRetailPriceUSD
+87,sales,refresh_01_2026Q1,SALE-000515404,R4 non-positive UnitRetailPriceUSD
+88,sales,refresh_01_2026Q1,SALE-000515551,R4 non-positive UnitRetailPriceUSD
+89,sales,refresh_01_2026Q1,SALE-000516042,R2 null SKU (MedicineID)
+90,sales,refresh_01_2026Q1,SALE-000516103,R2 null SKU (MedicineID)
+91,sales,refresh_01_2026Q1,SALE-000516139,R4 non-positive UnitRetailPriceUSD
+92,sales,refresh_01_2026Q1,SALE-000516418,R2 null SKU (MedicineID)
+93,sales,refresh_01_2026Q1,SALE-000517011,R2 null SKU (MedicineID)
+94,sales,refresh_01_2026Q1,SALE-000517024,R4 non-positive UnitRetailPriceUSD
+95,sales,refresh_01_2026Q1,SALE-000517043,R4 non-positive UnitRetailPriceUSD
+96,sales,refresh_01_2026Q1,SALE-000518672,R4 non-positive UnitRetailPriceUSD
+97,sales,refresh_01_2026Q1,SALE-000519008,R5 invalid date SalesDate
+98,sales,refresh_01_2026Q1,SALE-000519131,R4 non-positive UnitRetailPriceUSD
+99,sales,refresh_01_2026Q1,SALE-000519733,R5 invalid date SalesDate
+100,sales,refresh_01_2026Q1,SALE-000520750,R5 invalid date SalesDate
+101,sales,refresh_01_2026Q1,SALE-000520776,R4 non-positive UnitRetailPriceUSD
+102,sales,refresh_01_2026Q1,SALE-000520898,R4 non-positive UnitRetailPriceUSD
+103,sales,refresh_01_2026Q1,SALE-000521135,R5 invalid date SalesDate
+104,sales,refresh_01_2026Q1,SALE-000521361,R5 invalid date SalesDate
+105,sales,refresh_01_2026Q1,SALE-000521493,R4 non-positive UnitRetailPriceUSD
+106,sales,refresh_01_2026Q1,SALE-000521961,R4 non-positive UnitRetailPriceUSD
+107,sales,refresh_01_2026Q1,SALE-000522056,R4 non-positive UnitRetailPriceUSD
+108,sales,refresh_01_2026Q1,SALE-000523064,R5 invalid date SalesDate
+109,sales,refresh_01_2026Q1,SALE-000523208,R2 null SKU (MedicineID)
+110,sales,refresh_01_2026Q1,SALE-000523868,R4 non-positive UnitRetailPriceUSD
+111,sales,refresh_01_2026Q1,SALE-000525014,R5 invalid date SalesDate
+112,sales,refresh_01_2026Q1,SALE-000525188,R4 non-positive UnitRetailPriceUSD
+113,sales,refresh_01_2026Q1,SALE-000525779,R5 invalid date SalesDate
+114,hospital_demand,refresh_01_2026Q1,HDEM-00027217,R7 duplicate key in batch
+115,hospital_demand,refresh_01_2026Q1,HDEM-00027377,R4 non-positive ForecastDemandPacks
+116,hospital_demand,refresh_01_2026Q1,HDEM-00027415,R4 non-positive ForecastDemandPacks
+117,hospital_demand,refresh_01_2026Q1,HDEM-00027571,R2 null SKU (MedicineID)
+118,hospital_demand,refresh_01_2026Q1,HDEM-00027615,R5 invalid date DemandMonth
+119,hospital_demand,refresh_01_2026Q1,HDEM-00029200,R4 non-positive ForecastDemandPacks
+120,delivery,refresh_02_2026Q2,MFG-SHP-0000999|1,R5 invalid date DispatchDate
+121,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+122,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+123,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+124,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+125,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+126,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+127,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+128,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+129,warehouse,refresh_02_2026Q2,INV-000128189,R7 duplicate key in batch
+130,warehouse,refresh_02_2026Q2,INV-000128228,R2 null SKU (MedicineID)
+131,warehouse,refresh_02_2026Q2,INV-000128537,R5 invalid date SnapshotDate
+132,warehouse,refresh_02_2026Q2,INV-000129714,R5 invalid date SnapshotDate
+133,warehouse,refresh_02_2026Q2,INV-000130187,R2 null SKU (MedicineID)
+134,warehouse,refresh_02_2026Q2,INV-000130972,R2 null SKU (MedicineID)
+135,warehouse,refresh_02_2026Q2,INV-000131086,R2 null SKU (MedicineID)
+136,warehouse,refresh_02_2026Q2,INV-000131136,R2 null SKU (MedicineID)
+137,warehouse,refresh_02_2026Q2,INV-000131646,R5 invalid date SnapshotDate
+138,warehouse,refresh_02_2026Q2,INV-000133062,R5 invalid date SnapshotDate
+139,warehouse,refresh_02_2026Q2,INV-000133273,R5 invalid date SnapshotDate
+140,warehouse,refresh_02_2026Q2,INV-000133914,R2 null SKU (MedicineID)
+141,warehouse,refresh_02_2026Q2,INV-000134357,R2 null SKU (MedicineID)
+142,warehouse,refresh_02_2026Q2,INV-000137118,R2 null SKU (MedicineID)
+143,warehouse,refresh_02_2026Q2,INV-000139288,R2 null SKU (MedicineID)
+144,warehouse,refresh_02_2026Q2,INV-000139306,R2 null SKU (MedicineID)
+145,warehouse,refresh_02_2026Q2,INV-000139473,R5 invalid date SnapshotDate
+146,warehouse,refresh_02_2026Q2,INV-000139601,R2 null SKU (MedicineID)
+147,warehouse,refresh_02_2026Q2,INV-000140685,R5 invalid date SnapshotDate
+148,warehouse,refresh_02_2026Q2,INV-000140814,R2 null SKU (MedicineID)
+149,warehouse,refresh_02_2026Q2,INV-000140903,R2 null SKU (MedicineID)
+150,warehouse,refresh_02_2026Q2,INV-000141418,R5 invalid date SnapshotDate
+151,warehouse,refresh_02_2026Q2,INV-000141472,R5 invalid date SnapshotDate
+152,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+153,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+154,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+155,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+156,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+157,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+158,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+159,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+160,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+161,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+162,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+163,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+164,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+165,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+166,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+167,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+168,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+169,sales,refresh_02_2026Q2,SALE-000525970,R7 duplicate key in batch
+170,sales,refresh_02_2026Q2,SALE-000526039,R4 non-positive UnitRetailPriceUSD
+171,sales,refresh_02_2026Q2,SALE-000526591,R5 invalid date SalesDate
+172,sales,refresh_02_2026Q2,SALE-000526848,R4 non-positive UnitRetailPriceUSD
+173,sales,refresh_02_2026Q2,SALE-000527724,R5 invalid date SalesDate
+174,sales,refresh_02_2026Q2,SALE-000528070,R4 non-positive UnitRetailPriceUSD
+175,sales,refresh_02_2026Q2,SALE-000528233,R5 invalid date SalesDate
+176,sales,refresh_02_2026Q2,SALE-000529041,R2 null SKU (MedicineID)
+177,sales,refresh_02_2026Q2,SALE-000529204,R4 non-positive UnitRetailPriceUSD
+178,sales,refresh_02_2026Q2,SALE-000529279,R2 null SKU (MedicineID)
+179,sales,refresh_02_2026Q2,SALE-000529425,R4 non-positive UnitRetailPriceUSD
+180,sales,refresh_02_2026Q2,SALE-000530025,R4 non-positive UnitRetailPriceUSD
+181,sales,refresh_02_2026Q2,SALE-000530033,R4 non-positive UnitRetailPriceUSD
+182,sales,refresh_02_2026Q2,SALE-000530178,R2 null SKU (MedicineID)
+183,sales,refresh_02_2026Q2,SALE-000530917,R4 non-positive UnitRetailPriceUSD
+184,sales,refresh_02_2026Q2,SALE-000530959,R5 invalid date SalesDate
+185,sales,refresh_02_2026Q2,SALE-000531102,R5 invalid date SalesDate
+186,sales,refresh_02_2026Q2,SALE-000533217,R4 non-positive UnitRetailPriceUSD
+187,sales,refresh_02_2026Q2,SALE-000533631,R2 null SKU (MedicineID)
+188,sales,refresh_02_2026Q2,SALE-000534260,R4 non-positive UnitRetailPriceUSD
+189,sales,refresh_02_2026Q2,SALE-000534355,R4 non-positive UnitRetailPriceUSD
+190,sales,refresh_02_2026Q2,SALE-000535316,R5 invalid date SalesDate
+191,sales,refresh_02_2026Q2,SALE-000536008,R4 non-positive UnitRetailPriceUSD
+192,sales,refresh_02_2026Q2,SALE-000536262,R2 null SKU (MedicineID)
+193,sales,refresh_02_2026Q2,SALE-000536952,R4 non-positive UnitRetailPriceUSD
+194,sales,refresh_02_2026Q2,SALE-000537517,R4 non-positive UnitRetailPriceUSD
+195,sales,refresh_02_2026Q2,SALE-000538426,R2 null SKU (MedicineID)
+196,sales,refresh_02_2026Q2,SALE-000539468,R2 null SKU (MedicineID)
+197,sales,refresh_02_2026Q2,SALE-000540509,R2 null SKU (MedicineID)
+198,sales,refresh_02_2026Q2,SALE-000540717,R5 invalid date SalesDate
+199,sales,refresh_02_2026Q2,SALE-000540734,R5 invalid date SalesDate
+200,sales,refresh_02_2026Q2,SALE-000541155,R2 null SKU (MedicineID)
+201,sales,refresh_02_2026Q2,SALE-000541483,R5 invalid date SalesDate
+202,sales,refresh_02_2026Q2,SALE-000541733,R4 non-positive UnitRetailPriceUSD
+203,sales,refresh_02_2026Q2,SALE-000542226,R5 invalid date SalesDate
+204,hospital_demand,refresh_02_2026Q2,HDEM-00029485,R7 duplicate key in batch
+205,hospital_demand,refresh_02_2026Q2,HDEM-00029485,R7 duplicate key in batch
+206,hospital_demand,refresh_02_2026Q2,HDEM-00031097,R4 non-positive ForecastDemandPacks
+207,hospital_demand,refresh_02_2026Q2,HDEM-00031160,R4 non-positive ForecastDemandPacks
+208,hospital_demand,refresh_02_2026Q2,HDEM-00031318,R4 non-positive ForecastDemandPacks
+209,hospital_demand,refresh_02_2026Q2,HDEM-00031699,R4 non-positive ForecastDemandPacks

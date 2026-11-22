@@ -1,0 +1,13 @@
+hospital_name,forecast,consumed,actual_to_forecast_ratio,unfulfilled
+Southeast Regional Medical Center,635647.0,643929.0,1.013,72.0
+Mercy Regional Hospital,476327.0,482439.0,1.013,107.0
+Coastal Care Hospital,277278.0,280544.0,1.012,0.0
+Desert Valley Hospital,326254.0,330221.0,1.012,37.0
+Lakeside Community Hospital,262706.0,265792.0,1.012,0.0
+New England Teaching Hospital,630911.0,638132.0,1.011,290.0
+Metro Specialty Institute,309305.0,312845.0,1.011,0.0
+University Medical Center,706510.0,714234.0,1.011,701.0
+Pacific University Hospital,964936.0,974227.0,1.01,1945.0
+Texas Central Hospital,606864.0,613211.0,1.01,415.0
+Gulf Coast Medical Center,751325.0,756413.0,1.007,797.0
+Great Lakes Medical Center,628126.0,632566.0,1.007,126.0

@@ -1,0 +1,11 @@
+medicine_id,generic_name,disease_category,therapeutic_class,cold_chain_flag,units_90d,net_90d
+MED014,Bisoprolol,Cardiovascular Disease,Beta blocker,N,89.0,406.99
+MED062,Colchicine,Pain and Inflammatory Conditions,Antigout agent,N,121.0,663.29
+MED010,Amlodipine,Cardiovascular Disease,Calcium-channel blocker,N,125.0,391.83
+MED033,Metronidazole,Infectious Disease,Nitroimidazole antimicrobial,N,151.0,589.43
+MED026,Ipratropium Bromide,Respiratory Disease,Short-acting antimuscarinic,N,176.0,2411.77
+MED050,Quetiapine,Neurological and Mental Health Conditions,Atypical antipsychotic,N,181.0,1533.3
+MED007,Insulin Glargine,Diabetes Mellitus,Long-acting insulin,Y,189.0,9374.37
+MED020,Budesonide,Respiratory Disease,Inhaled corticosteroid,N,195.0,3450.49
+MED057,Diclofenac Sodium,Pain and Inflammatory Conditions,NSAID,N,202.0,686.65
+MED055,Paracetamol,Pain and Inflammatory Conditions,Analgesic and antipyretic,N,218.0,514.92

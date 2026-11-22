@@ -1,0 +1,11 @@
+medicine_id,generic_name,disease_category,therapeutic_class,cold_chain_flag,units_90d,net_90d
+MED044,Mesalazine,Gastrointestinal Disease,Intestinal anti-inflammatory,N,1619.0,50765.4
+MED049,Duloxetine,Neurological and Mental Health Conditions,SNRI antidepressant,N,1496.0,13264.89
+MED038,Esomeprazole,Gastrointestinal Disease,Proton-pump inhibitor,N,1181.0,6928.97
+MED037,Omeprazole,Gastrointestinal Disease,Proton-pump inhibitor,N,1109.0,4615.86
+MED054,Donepezil,Neurological and Mental Health Conditions,Acetylcholinesterase inhibitor,N,846.0,6420.89
+MED043,Lactulose,Gastrointestinal Disease,Osmotic laxative,N,823.0,7301.62
+MED029,Azithromycin,Infectious Disease,Macrolide antibiotic,N,806.0,4417.46
+MED052,Sodium Valproate,Neurological and Mental Health Conditions,Antiepileptic,N,798.0,5408.55
+MED032,Cefixime,Infectious Disease,Third-generation cephalosporin,N,793.0,8082.36
+MED028,Amoxicillin,Infectious Disease,Penicillin antibiotic,N,763.0,4492.92

@@ -1,0 +1,16 @@
+Intelligent Data Architectures - Fall 2026
+Project: Pharma Cold-Chain DWH + BI  |  Milestone 1 - SDI (Sales & Demand Intelligence) DWH
+
+GitHub repository:
+https://github.com/ZuhaaAsif/Pharma-Supply-Chain-DWH
+
+Group members:
+1. Zuhaa Asif     - 29169
+2. Kashaf Saleem  - 29175
+
+Contents of the repository:
+- deliverables/Milestone.1.SDI.DWH.Report.pdf
+- deliverables/Milestone.1.SDI.DWH.Excel.xlsx
+- deliverables/Milestone.1.SDI.DWH.Video.mp4
+- dags/, pipeline/, sql/, grafana/, scripts/   (all code: Airflow, ingestion API, DWH, dashboards)
+- data/oversampled/ (oversampled data) + data/oversampled/DATA_DICTIONARY.md

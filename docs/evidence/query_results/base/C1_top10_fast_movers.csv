@@ -1,0 +1,11 @@
+medicine_id,generic_name,disease_category,therapeutic_class,cold_chain_flag,units_90d,net_90d
+MED053,Levetiracetam,Neurological and Mental Health Conditions,Antiepileptic,N,1775.0,18560.9
+MED049,Duloxetine,Neurological and Mental Health Conditions,SNRI antidepressant,N,1719.0,15256.55
+MED029,Azithromycin,Infectious Disease,Macrolide antibiotic,N,1631.0,8936.99
+MED028,Amoxicillin,Infectious Disease,Penicillin antibiotic,N,1316.0,7733.76
+MED004,Empagliflozin,Diabetes Mellitus,SGLT2 inhibitor,N,1277.0,23013.04
+MED054,Donepezil,Neurological and Mental Health Conditions,Acetylcholinesterase inhibitor,N,1192.0,9028.29
+MED017,Clopidogrel,Cardiovascular Disease,Platelet aggregation inhibitor,N,1051.0,7400.92
+MED061,Pregabalin,Pain and Inflammatory Conditions,Neuropathic pain agent,N,1041.0,6249.58
+MED044,Mesalazine,Gastrointestinal Disease,Intestinal anti-inflammatory,N,927.0,29052.62
+MED023,Tiotropium,Respiratory Disease,Long-acting antimuscarinic,N,888.0,25522.38

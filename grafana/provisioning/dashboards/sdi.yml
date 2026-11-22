@@ -1,0 +1,9 @@
+apiVersion: 1
+providers:
+  - name: SDI data-engineering dashboards
+    folder: SDI Data Engineering
+    type: file
+    allowUiUpdates: true
+    updateIntervalSeconds: 30
+    options:
+      path: /var/lib/grafana/dashboards

@@ -1,0 +1,4 @@
+channel_group,txns,units,net_sales,gross_margin,gm_pct,discount_pct
+Retail,305048.0,362979.0,3589195.82,839422.92,23.39,1.11
+Hospital,109192.0,129771.0,1370926.36,320734.66,23.4,1.1
+E-commerce,85760.0,102024.0,1010936.58,236312.88,23.38,1.13

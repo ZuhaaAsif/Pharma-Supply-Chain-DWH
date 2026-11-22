@@ -1,0 +1,273 @@
+file,source_key,column,sql_type,is_key,description,example,null_pct,generation
+01_master_data.csv,master,MedicineID,text,PK,Medicine SKU identifier (conformed key to master data),MED001,0.0,copied from current master snapshot
+01_master_data.csv,master,InternalSKU,text,,Internal ERP SKU code,SKU-01-0001,0.0,copied from current master snapshot
+01_master_data.csv,master,GTIN14,text,FK,GS1 Global Trade Item Number of the pack,09506000000015,0.0,copied from current master snapshot
+01_master_data.csv,master,GenericName,text,,International non-proprietary name,Metformin,0.0,copied from current master snapshot
+01_master_data.csv,master,FictionalBrandName,text,,Brand name (fictional),ClariMetform01,0.0,copied from current master snapshot
+01_master_data.csv,master,DiseaseCategory,text,,One of 7 disease categories,Diabetes Mellitus,0.0,copied from current master snapshot
+01_master_data.csv,master,ICD10Category,text,,ICD-10 chapter/range of the disease category,E11,0.0,copied from current master snapshot
+01_master_data.csv,master,ATCCode,text,,WHO ATC classification code,A10BA02,0.0,copied from current master snapshot
+01_master_data.csv,master,TherapeuticClass,text,,Pharmacological class,Biguanide,0.0,copied from current master snapshot
+01_master_data.csv,master,DosageForm,text,,Dosage form,Tablet,0.0,copied from current master snapshot
+01_master_data.csv,master,Strength,text,,Strength per unit,500 mg,0.0,copied from current master snapshot
+01_master_data.csv,master,RouteOfAdministration,text,,Route of administration,Oral,0.0,copied from current master snapshot
+01_master_data.csv,master,PackSize,bigint,,Units per pack,30,0.0,copied from current master snapshot
+01_master_data.csv,master,BaseUnitOfMeasure,text,,Selling unit (pack / device),pack,0.0,copied from current master snapshot
+01_master_data.csv,master,PrescriptionClass,text,,Prescription or OTC,Prescription,0.0,copied from current master snapshot
+01_master_data.csv,master,ControlledMedicineFlag,text,,Y = controlled substance,N,0.0,copied from current master snapshot
+01_master_data.csv,master,ColdChainFlag,text,,Y = requires 2-8 C cold chain,N,0.0,copied from current master snapshot
+01_master_data.csv,master,StorageMinTempC,double precision,,Temperature in degrees Celsius: Storage Min TempC,15,0.0,copied from current master snapshot
+01_master_data.csv,master,StorageMaxTempC,double precision,,Temperature in degrees Celsius: Storage Max TempC,25,0.0,copied from current master snapshot
+01_master_data.csv,master,MaxHumidityPct,double precision,,Percentage: Max Humidity Pct,65,0.0,copied from current master snapshot
+01_master_data.csv,master,ShelfLifeMonths,bigint,,Shelf Life Months,24,0.0,copied from current master snapshot
+01_master_data.csv,master,MinimumRemainingShelfLifeDays,bigint,,Number of days: Minimum Remaining Shelf Life Days,270,0.0,copied from current master snapshot
+01_master_data.csv,master,PrimarySupplierID,text,FK,Main API/material supplier,SUP001,0.0,copied from current master snapshot
+01_master_data.csv,master,PrimaryPlantID,text,FK,Default manufacturing plant,PLT02,0.0,copied from current master snapshot
+01_master_data.csv,master,ManufacturingLeadTimeDays,bigint,,Number of days: Manufacturing Lead Time Days,21,0.0,copied from current master snapshot
+01_master_data.csv,master,StandardBatchSizePacks,bigint,,Quantity in packs: Standard Batch Size Packs,15000,0.0,copied from current master snapshot
+01_master_data.csv,master,SafetyStockDays,bigint,,Number of days: Safety Stock Days,35,0.0,copied from current master snapshot
+01_master_data.csv,master,ReorderReviewCycleDays,bigint,,Number of days: Reorder Review Cycle Days,7,0.0,copied from current master snapshot
+01_master_data.csv,master,UnitManufacturingCostUSD,double precision,,Amount in US dollars: Unit Manufacturing CostUSD,0.55,0.0,SCD-2 seed: +3..8% for 6 re-priced SKUs; EffectiveFromDate = refresh start
+01_master_data.csv,master,WholesalePriceUSD,double precision,,Amount in US dollars: Wholesale PriceUSD,2.2,0.0,SCD-2 seed: +3..8% for 6 re-priced SKUs; EffectiveFromDate = refresh start
+01_master_data.csv,master,RecommendedRetailPriceUSD,double precision,,Amount in US dollars: Recommended Retail PriceUSD,2.9,0.0,SCD-2 seed: +3..8% for 6 re-priced SKUs; EffectiveFromDate = refresh start
+01_master_data.csv,master,ProductStatus,text,,Active / inactive (SCD-2 tracked),Active,0.0,copied from current master snapshot
+01_master_data.csv,master,EffectiveFromDate,date,,Date this master version became valid (SCD-2),2023-01-01,0.0,SCD-2 seed: +3..8% for 6 re-priced SKUs; EffectiveFromDate = refresh start
+01_master_data.csv,master,SourceSystem,text,,Originating operational system,ERP_PRODUCT_MASTER,0.0,copied from current master snapshot
+02_manufacturing_data.csv,manufacturing,ManufacturingOrderID,text,PK,Manufacturing order identifier,MO-2026-00001,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+02_manufacturing_data.csv,manufacturing,ProductionBatchID,text,FK,Production batch identifier (traceability key),B26-PLT02-000562,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+02_manufacturing_data.csv,manufacturing,MedicineID,text,FK,Medicine SKU identifier (conformed key to master data),MED055,1.1,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,GTIN14,text,FK,GS1 Global Trade Item Number of the pack,09506000000558,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,PlantID,text,FK,Manufacturing plant,PLT02,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,OrderDate,date,,Calendar date: Order Date,2026-03-01,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+02_manufacturing_data.csv,manufacturing,DemandSignalSource,text,,What triggered the manufacturing order,Hospital consumption plan,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,PlanningRunType,text,,MRP run type,Weekly MRP run,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,ManufacturingPriority,text,,Normal / High / Urgent,Normal,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,PlannedStartDate,date,,Calendar date: Planned Start Date,2026-03-04,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+02_manufacturing_data.csv,manufacturing,PlannedCompletionDate,date,,Calendar date: Planned Completion Date,2026-03-23,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+02_manufacturing_data.csv,manufacturing,ActualStartDate,date,,Calendar date: Actual Start Date,2026-03-04,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+02_manufacturing_data.csv,manufacturing,ActualCompletionDate,date,,Calendar date: Actual Completion Date,2026-03-23,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+02_manufacturing_data.csv,manufacturing,PlannedQuantityPacks,bigint,,Quantity in packs: Planned Quantity Packs,10000,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,ActualQuantityPacks,bigint,,Quantity in packs: Actual Quantity Packs,9928,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+02_manufacturing_data.csv,manufacturing,RejectedQuantityPacks,bigint,,Quantity in packs: Rejected Quantity Packs,167,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+02_manufacturing_data.csv,manufacturing,ReleasedQuantityPacks,bigint,,Quantity in packs: Released Quantity Packs,9761,0.0,re-derived: = Actual - Rejected (0 if batch rejected)
+02_manufacturing_data.csv,manufacturing,YieldPct,double precision,,Percentage: Yield Pct,98.3,0.0,re-derived: = Released / Actual x 100
+02_manufacturing_data.csv,manufacturing,BatchStatus,text,,Released / Rejected,Released,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,QualityTestStatus,text,,Passed / Conditional pass / Failed,Passed,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,QualitySampleDate,date,,Calendar date: Quality Sample Date,2026-03-24,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+02_manufacturing_data.csv,manufacturing,BatchReleaseDate,date,,Calendar date: Batch Release Date,2026-03-26,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+02_manufacturing_data.csv,manufacturing,ExpiryDate,date,,Calendar date: Expiry Date,2029-03-10,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+02_manufacturing_data.csv,manufacturing,StandardBatchSizePacks,bigint,,Quantity in packs: Standard Batch Size Packs,10000,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,ManufacturingLeadTimeDays,bigint,,Number of days: Manufacturing Lead Time Days,35,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,SetupHours,double precision,,Number of hours: Setup Hours,5.4,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,RunHours,double precision,,Number of hours: Run Hours,7.5,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,DowntimeHours,double precision,,Number of hours: Downtime Hours,0.1,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,DelayDays,bigint,,Number of days: Delay Days,0,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,DelayReason,text,,Reason for production delay (null = on time),Equipment maintenance,85.71,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,LaborCostUSD,double precision,,Amount in US dollars: Labor CostUSD,537.39,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+02_manufacturing_data.csv,manufacturing,MaterialCostUSD,double precision,,Amount in US dollars: Material CostUSD,2630.6,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+02_manufacturing_data.csv,manufacturing,OverheadCostUSD,double precision,,Amount in US dollars: Overhead CostUSD,674.45,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+02_manufacturing_data.csv,manufacturing,TotalManufacturingCostUSD,double precision,,Amount in US dollars: Total Manufacturing CostUSD,3842.44,0.0,re-derived: = Labor + Material + Overhead
+02_manufacturing_data.csv,manufacturing,CostPerReleasedPackUSD,double precision,,Amount in US dollars: Cost Per Released PackUSD,0.3937,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+02_manufacturing_data.csv,manufacturing,DeviationFlag,text,,Y = GMP deviation raised,N,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,DeviationCategory,text,,Deviation type (null = none),Material variance,84.62,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,SourceSystem,text,,Originating operational system,MES_QMS_INTEGRATED,0.0,bootstrapped from the template row (joint distribution preserved)
+02_manufacturing_data.csv,manufacturing,RecordCreatedTimestampUTC,timestamptz,,UTC timestamp: Record Created TimestampUTC,2026-03-27T06:00:00Z,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+03_manufacturer_delivery_data.csv,delivery,ShipmentID,text,PK,Manufacturer-to-warehouse shipment identifier,MFG-SHP-0000898,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+03_manufacturer_delivery_data.csv,delivery,ShipmentLineNumber,bigint,PK,Line number inside a shipment,1,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,SSCC18,text,,GS1 Serial Shipping Container Code,95060010008008976,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+03_manufacturer_delivery_data.csv,delivery,ManufacturingOrderID,text,FK,Manufacturing order identifier,MO-2026-00032,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+03_manufacturer_delivery_data.csv,delivery,ProductionBatchID,text,FK,Production batch identifier (traceability key),B26-PLT02-000593,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+03_manufacturer_delivery_data.csv,delivery,MedicineID,text,FK,Medicine SKU identifier (conformed key to master data),MED037,0.63,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,GTIN14,text,FK,GS1 Global Trade Item Number of the pack,09506000000374,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,OriginPlantID,text,FK,Shipping plant,PLT02,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,OriginPlantGLN,text,,GS1 location number of plant,0950600100011,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,OriginPlantName,text,,Shipping plant name,Clarity Pharma Central Plant,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DestinationWarehouseID,text,FK,Receiving warehouse,WH006,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DestinationWarehouseGLN,text,,GS1 location number of warehouse,0950600200063,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DestinationWarehouseName,text,,Receiving warehouse name,New England Cold Chain Hub,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DestinationCity,text,,Warehouse city,Worcester,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DestinationState,text,,Warehouse state,MA,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DestinationCountryCode,text,,Country code,US,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,CarrierID,text,FK,Logistics carrier,CAR01,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,CarrierName,text,,Carrier name,NorthStar Medical Logistics,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,TransportMode,text,,Road / Refrigerated road / Air,Road,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,ColdChainRequiredFlag,text,,Y/N indicator: Cold Chain Required Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DispatchDate,date,,Calendar date: Dispatch Date,2026-02-15,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+03_manufacturer_delivery_data.csv,delivery,PromisedDeliveryDate,date,,Calendar date: Promised Delivery Date,2026-02-17,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+03_manufacturer_delivery_data.csv,delivery,ActualDeliveryDate,date,,Calendar date: Actual Delivery Date,2026-02-17,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+03_manufacturer_delivery_data.csv,delivery,ShipmentStatus,text,,Delivery status,Delivered,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,ShippedQuantityPacks,bigint,,Quantity in packs: Shipped Quantity Packs,8003,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+03_manufacturer_delivery_data.csv,delivery,ReceivedQuantityPacks,bigint,,Quantity in packs: Received Quantity Packs,8003,0.0,re-derived: = Shipped - Damaged - Short
+03_manufacturer_delivery_data.csv,delivery,DamagedQuantityPacks,bigint,,Quantity in packs: Damaged Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,ShortQuantityPacks,bigint,,Quantity in packs: Short Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DistanceMiles,bigint,,Distance in miles: Distance Miles,850,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,TransitHours,bigint,,Number of hours: Transit Hours,48,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,OnTimeDeliveryFlag,text,,Y/N indicator: On Time Delivery Flag,Y,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,InFullDeliveryFlag,text,,Y/N indicator: In Full Delivery Flag,Y,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,OTIFFlag,text,,Y/N indicator: OTIF Flag,Y,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,FreightCostUSD,double precision,,Amount in US dollars: Freight CostUSD,1541.6,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+03_manufacturer_delivery_data.csv,delivery,FreightCostPerPackUSD,double precision,,Amount in US dollars: Freight Cost Per PackUSD,0.1926,0.0,re-derived: = Freight / Shipped
+03_manufacturer_delivery_data.csv,delivery,SealNumber,text,,Trailer/container seal number,SEAL-00800898,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+03_manufacturer_delivery_data.csv,delivery,TemperatureMonitoringRequiredFlag,text,,Y/N indicator: Temperature Monitoring Required Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,TemperatureExcursionFlag,text,,Y/N indicator: Temperature Excursion Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,ProofOfDeliveryFlag,text,,Y/N indicator: Proof Of Delivery Flag,Y,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,DeliveryExceptionReason,text,,Exception reason (null = none),Severe weather,90.51,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,EPCISEventType,text,,GS1 EPCIS event type,ShippingEvent / ReceivingEvent,0.0,bootstrapped from the template row (joint distribution preserved)
+03_manufacturer_delivery_data.csv,delivery,SourceSystem,text,,Originating operational system,TMS_EPCIS_GATEWAY,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,InventorySnapshotID,text,PK,Daily inventory snapshot row identifier,INV-000112185,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+04_warehouse_data.csv,warehouse,SnapshotDate,date,,Calendar date: Snapshot Date,2026-01-01,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+04_warehouse_data.csv,warehouse,WarehouseLotID,text,FK,Warehouse lot identifier (batch received into a warehouse),WHLOT-0000967,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+04_warehouse_data.csv,warehouse,InboundShipmentID,text,FK,Shipment that delivered the lot,MFG-SHP-0000973,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+04_warehouse_data.csv,warehouse,InboundShipmentLineNumber,bigint,,Line of the inbound shipment,1,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+04_warehouse_data.csv,warehouse,ProductionBatchID,text,FK,Production batch identifier (traceability key),B26-PLT04-000576,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+04_warehouse_data.csv,warehouse,MedicineID,text,FK,Medicine SKU identifier (conformed key to master data),MED014,0.09,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,GTIN14,text,FK,GS1 Global Trade Item Number of the pack,09506000000145,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,WarehouseID,text,FK,Regional warehouse identifier,WH004,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,WarehouseGLN,text,,GS1 location number,0950600200049,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,WarehouseName,text,,Warehouse name,Western Distribution Center,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,StorageZoneID,text,FK,Warehouse storage zone,WH004-AMB-07,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,StorageCondition,text,,Required storage band,15-25 C,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,BatchExpiryDate,date,,Calendar date: Batch Expiry Date,2028-11-24,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+04_warehouse_data.csv,warehouse,DaysToExpiry,bigint,,Days To Expiry,1058,0.0,re-derived: = BatchExpiryDate - SnapshotDate
+04_warehouse_data.csv,warehouse,InventoryStatus,text,,Available / Near expiry / Quarantined / Depleted / Expired,Available,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,OpeningQuantityPacks,bigint,,Quantity in packs: Opening Quantity Packs,9896,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+04_warehouse_data.csv,warehouse,ReceivedQuantityPacks,bigint,,Quantity in packs: Received Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,PutawayQuantityPacks,bigint,,Quantity in packs: Putaway Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,QuarantineQuantityPacks,bigint,,Quantity in packs: Quarantine Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,AvailableQuantityPacks,bigint,,Quantity in packs: Available Quantity Packs,9344,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+04_warehouse_data.csv,warehouse,ReservedQuantityPacks,bigint,,Quantity in packs: Reserved Quantity Packs,400,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,PickedQuantityPacks,bigint,,Quantity in packs: Picked Quantity Packs,158,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,ShippedQuantityPacks,bigint,,Quantity in packs: Shipped Quantity Packs,159,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,TransferInQuantityPacks,bigint,,Quantity in packs: Transfer In Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,TransferOutQuantityPacks,bigint,,Quantity in packs: Transfer Out Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,DamagedQuantityPacks,bigint,,Quantity in packs: Damaged Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,ExpiredQuantityPacks,bigint,,Quantity in packs: Expired Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,AdjustmentQuantityPacks,bigint,,Quantity in packs: Adjustment Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,ClosingQuantityPacks,bigint,,Quantity in packs: Closing Quantity Packs,9739,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+04_warehouse_data.csv,warehouse,StockoutFlag,text,,Y/N indicator: Stockout Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,NearExpiryFlag,text,,Y/N indicator: Near Expiry Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,FEFOComplianceFlag,text,,Y/N indicator: FEFO Compliance Flag,Y,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,CycleCountPerformedFlag,text,,Y/N indicator: Cycle Count Performed Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,CycleCountVariancePacks,bigint,,Quantity in packs: Cycle Count Variance Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,DockToStockHours,double precision,,Number of hours: Dock To Stock Hours,7.3,99.29,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,OrderPickingAccuracyPct,double precision,,Percentage: Order Picking Accuracy Pct,98.3,1.48,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,AllocatedBinCapacityPacks,bigint,,Quantity in packs: Allocated Bin Capacity Packs,15000,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,WarehouseTotalCapacityPacks,bigint,,Quantity in packs: Warehouse Total Capacity Packs,720000,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,WarehouseActivityStatus,text,,Main activity of the lot that day,Pick and dispatch,0.0,bootstrapped from the template row (joint distribution preserved)
+04_warehouse_data.csv,warehouse,SourceSystem,text,,Originating operational system,WMS_DAILY_SNAPSHOT,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,SalesTransactionID,text,PK,Sales transaction identifier,SALE-000500001,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+05_pharmacy_sales_data.csv,sales,SalesDate,date,,Calendar date: Sales Date,2026-01-01,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+05_pharmacy_sales_data.csv,sales,SalesTimestampUTC,timestamptz,,UTC timestamp: Sales TimestampUTC,2026-01-01T00:34:11Z,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+05_pharmacy_sales_data.csv,sales,SalesChannel,text,,Physical Pharmacy or Ecommerce,Ecommerce,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PharmacyID,text,FK,Selling pharmacy identifier,PHR056,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PharmacyGLN,text,,GS1 location number of pharmacy,0950600300560,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PharmacyName,text,,Pharmacy name,Community Care Pharmacy 56,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PharmacyType,text,,Chain / Independent / Hospital Pharmacy,Independent Pharmacy,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,HospitalID,text,FK,Hospital identifier,HOSP004,78.24,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PharmacyCity,text,,Pharmacy city,Pittsburgh,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PharmacyState,text,,Pharmacy state,PA,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,CountryCode,text,,Country code,US,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PharmacyOrderID,text,FK,Pharmacy replenishment order,PHO-0003954,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+05_pharmacy_sales_data.csv,sales,PharmacyDeliveryID,text,FK,Pharmacy replenishment delivery,PHD-0003954,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+05_pharmacy_sales_data.csv,sales,PharmacyDeliveryDate,date,,Calendar date: Pharmacy Delivery Date,2025-08-05,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+05_pharmacy_sales_data.csv,sales,DeliveryQuantityPacks,bigint,,Quantity in packs: Delivery Quantity Packs,1443,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,DeliveryOTIFFlag,text,,Y/N indicator: DeliveryOTIF Flag,Y,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,WarehouseLotID,text,FK,Warehouse lot identifier (batch received into a warehouse),WHLOT-0001003,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+05_pharmacy_sales_data.csv,sales,SourceWarehouseID,text,FK,Warehouse that supplied the sold lot,WH001,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+05_pharmacy_sales_data.csv,sales,ProductionBatchID,text,FK,Production batch identifier (traceability key),B24-PLT03-000434,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+05_pharmacy_sales_data.csv,sales,MedicineID,text,FK,Medicine SKU identifier (conformed key to master data),MED049,0.05,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,GTIN14,text,FK,GS1 Global Trade Item Number of the pack,09506000000497,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,DiseaseCategory,text,,One of 7 disease categories,Neurological and Mental Health Condition,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,GenericName,text,,International non-proprietary name,Duloxetine,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,BatchExpiryDate,date,,Calendar date: Batch Expiry Date,2027-07-16,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+05_pharmacy_sales_data.csv,sales,DaysToExpiryAtSale,bigint,,Days To Expiry At Sale,561,0.0,re-derived: = BatchExpiryDate - SalesDate
+05_pharmacy_sales_data.csv,sales,QuantitySoldPacks,bigint,,Quantity in packs: Quantity Sold Packs,2,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,UnitRetailPriceUSD,double precision,,Amount in US dollars: Unit Retail PriceUSD,8.98,0.0,re-derived: = current master RecommendedRetailPriceUSD (SCD-2 price flows through)
+05_pharmacy_sales_data.csv,sales,GrossSalesAmountUSD,double precision,,Amount in US dollars: Gross Sales AmountUSD,17.96,0.0,re-derived: = Qty x UnitRetailPrice
+05_pharmacy_sales_data.csv,sales,DiscountAmountUSD,double precision,,Amount in US dollars: Discount AmountUSD,0.0,0.0,re-derived: = Gross x template discount rate
+05_pharmacy_sales_data.csv,sales,NetSalesAmountUSD,double precision,,Amount in US dollars: Net Sales AmountUSD,17.96,0.0,re-derived: = Gross - Discount
+05_pharmacy_sales_data.csv,sales,SalesTaxUSD,double precision,,Amount in US dollars: Sales TaxUSD,1.08,0.0,re-derived: = 6% x Net
+05_pharmacy_sales_data.csv,sales,CostOfGoodsSoldUSD,double precision,,Amount in US dollars: Cost Of Goods SoldUSD,13.6,0.0,re-derived: = Qty x current WholesalePrice
+05_pharmacy_sales_data.csv,sales,GrossMarginUSD,double precision,,Amount in US dollars: Gross MarginUSD,4.36,0.0,re-derived: = Net - COGS
+05_pharmacy_sales_data.csv,sales,PromotionCode,text,,Promotion applied (null = none),WELLNESS8,84.16,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PrescriptionRequiredFlag,text,,Y/N indicator: Prescription Required Flag,Y,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PrescriptionID,text,FK,Prescription reference (null for OTC sales),RX-000500001,8.9,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+05_pharmacy_sales_data.csv,sales,CustomerSegment,text,,Customer segment,Senior chronic care,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PayerType,text,,"Who pays (cash, insurance, government, formulary)",Cash,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,PaymentMethod,text,,Payment instrument,Digital wallet,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,EcommerceDeliveryStatus,text,,E-commerce fulfilment outcome,Delivered,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,ReturnFlag,text,,Y/N indicator: Return Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,ReturnedQuantityPacks,bigint,,Quantity in packs: Returned Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,SaleStatus,text,,Completed / Partially returned,Completed,0.0,bootstrapped from the template row (joint distribution preserved)
+05_pharmacy_sales_data.csv,sales,SourceSystem,text,,Originating operational system,ECOM_ORDER_PLATFORM,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,HospitalDemandRecordID,text,PK,Hospital x medicine x month record identifier,HDEM-00027217,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+06_hospital_demand_data.csv,hospital_demand,DemandMonth,date,,Calendar date: Demand Month,2026-01-01,0.0,shifted +12 months (calendar-aligned quarter)
+06_hospital_demand_data.csv,hospital_demand,HospitalID,text,FK,Hospital identifier,HOSP001,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,HospitalGLN,text,,GS1 location number of hospital,0950600400017,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,HospitalName,text,,Hospital name,University Medical Center,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,HospitalType,text,,Academic / General / Community / Specialty,Academic Medical Center,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,HospitalPharmacyID,text,FK,Pharmacy attached to the hospital,PHR001,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,City,text,,City,Philadelphia,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,State,text,,State,PA,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,CountryCode,text,,Country code,US,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,LicensedBeds,bigint,,Licensed Beds,850,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,ICUBeds,bigint,,ICU Beds,96,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,AverageOccupancyRatePct,double precision,,Percentage: Average Occupancy Rate Pct,68,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,TraumaLevel,text,,Trauma centre level (null = none),Level I,50.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,CatchmentPopulation,bigint,,Catchment Population,1800000,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,MedicineID,text,FK,Medicine SKU identifier (conformed key to master data),MED001,0.02,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,GTIN14,text,FK,GS1 Global Trade Item Number of the pack,09506000000015,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,GenericName,text,,International non-proprietary name,Metformin,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,DiseaseCategory,text,,One of 7 disease categories,Diabetes Mellitus,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,ICD10Category,text,,ICD-10 chapter/range of the disease category,E11,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,EstimatedDiseaseCases,bigint,,Estimated Disease Cases,3469,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,DiseaseRelatedAdmissions,bigint,,Disease Related Admissions,1319,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,OutpatientEncounters,bigint,,Outpatient Encounters,5282,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,ForecastDemandPacks,bigint,,Quantity in packs: Forecast Demand Packs,216,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,RequestedQuantityPacks,bigint,,Quantity in packs: Requested Quantity Packs,242,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,ApprovedQuantityPacks,bigint,,Quantity in packs: Approved Quantity Packs,228,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,ReceivedQuantityPacks,bigint,,Quantity in packs: Received Quantity Packs,225,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,EmergencyRequestQuantityPacks,bigint,,Quantity in packs: Emergency Request Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,OpeningStockPacks,bigint,,Quantity in packs: Opening Stock Packs,380,0.0,re-derived: = previous month ClosingStock (roll-forward)
+06_hospital_demand_data.csv,hospital_demand,DispensedQuantityPacks,bigint,,Quantity in packs: Dispensed Quantity Packs,213,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,ConsumedQuantityPacks,bigint,,Quantity in packs: Consumed Quantity Packs,206,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,WastageQuantityPacks,bigint,,Quantity in packs: Wastage Quantity Packs,0,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,ClosingStockPacks,bigint,,Quantity in packs: Closing Stock Packs,392,0.0,re-derived: = Opening + Received - Dispensed - Wastage
+06_hospital_demand_data.csv,hospital_demand,UnfulfilledDemandPacks,bigint,,Quantity in packs: Unfulfilled Demand Packs,0,0.0,re-derived: template value + any shortfall when stock runs out
+06_hospital_demand_data.csv,hospital_demand,StockoutDays,bigint,,Number of days: Stockout Days,0,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,ServiceLevelPct,double precision,,Percentage: Service Level Pct,100.0,0.0,re-derived: = 100 x (1 - Unfulfilled / (Dispensed + Unfulfilled))
+06_hospital_demand_data.csv,hospital_demand,MedicationRequestStatus,text,,Completed / Partially fulfilled,Completed,0.0,"scaled by YoY growth x N(1, 0.04) noise"
+06_hospital_demand_data.csv,hospital_demand,FormularyStatus,text,,Formulary / Restricted / Non-formulary exception,Formulary,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,AverageLeadTimeDays,bigint,,Number of days: Average Lead Time Days,13,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,DemandTrendIndex,double precision,,Demand Trend Index,1.221,0.0,bootstrapped from the template row (joint distribution preserved)
+06_hospital_demand_data.csv,hospital_demand,SourceSystem,text,,Originating operational system,HOSPITAL_ERP_FHIR_EXPORT,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,SensorReadingID,text,PK,IoT reading identifier,IOTR-0000293426,0.0,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+07_iot_streaming_data.csv,iot,DeviceID,text,FK,IoT device identifier,IOT-WH005-COLD-01,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,DeviceType,text,,Logger type,Temperature-humidity logger,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,AssetType,text,,WarehouseZone or Shipment,WarehouseZone,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,ShipmentID,text,FK,Manufacturer-to-warehouse shipment identifier,MFG-SHP-0000032,72.45,re-keyed: new ID continuing the sequence / re-pointed to an entity generated in the same refresh
+07_iot_streaming_data.csv,iot,SSCC18,text,,GS1 Serial Shipping Container Code,095060010008000320,72.45,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,WarehouseID,text,FK,Regional warehouse identifier,WH005,27.55,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,StorageZoneID,text,FK,Warehouse storage zone,WH005-COLD-01,27.55,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,EventTimestampUTC,timestamptz,,UTC timestamp: Event TimestampUTC,2026-01-01T00:00:00Z,0.0,"shifted +364 days (52 weeks, keeps weekday pattern); intra-row intervals preserved"
+07_iot_streaming_data.csv,iot,IngestionTimestampUTC,timestamptz,,UTC timestamp: Ingestion TimestampUTC,2026-01-01T00:01:07Z,0.0,re-derived: = Event + DataLatencySeconds
+07_iot_streaming_data.csv,iot,EventSequenceNumber,bigint,,Event Sequence Number,5857,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,TemperatureC,double precision,,Temperature in degrees Celsius: TemperatureC,6.17,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+07_iot_streaming_data.csv,iot,RelativeHumidityPct,double precision,,Percentage: Relative Humidity Pct,53.23,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+07_iot_streaming_data.csv,iot,Latitude,double precision,,Latitude,33.749,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,Longitude,double precision,,Longitude,-84.388,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,DoorOpenFlag,text,,Y/N indicator: Door Open Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,ShockG,double precision,,ShockG,0.037,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,BatteryLevelPct,double precision,,Percentage: Battery Level Pct,95.9,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,SignalStrengthDbm,bigint,,Signal Strength Dbm,-59,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,StorageMinTempC,double precision,,Temperature in degrees Celsius: Storage Min TempC,2,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,StorageMaxTempC,double precision,,Temperature in degrees Celsius: Storage Max TempC,8,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,MaxHumidityPct,double precision,,Percentage: Max Humidity Pct,75,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,TemperatureBreachFlag,text,,Y/N indicator: Temperature Breach Flag,N,0.0,"re-derived: = Temperature outside [StorageMinTempC, StorageMaxTempC]"
+07_iot_streaming_data.csv,iot,HumidityBreachFlag,text,,Y/N indicator: Humidity Breach Flag,N,0.0,re-derived: = Humidity > MaxHumidityPct
+07_iot_streaming_data.csv,iot,ThresholdBreachFlag,text,,Y/N indicator: Threshold Breach Flag,N,0.0,"jittered (small multiplicative/additive noise), then constrained by business rules"
+07_iot_streaming_data.csv,iot,AlertSeverity,text,,Normal / Warning / Critical,Normal,0.0,"re-derived: Critical if deviation > 2 C, Warning if any breach"
+07_iot_streaming_data.csv,iot,ReadingQuality,text,,Valid / Suspect,Valid,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,DataLatencySeconds,bigint,,Data Latency Seconds,67,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,LateArrivalFlag,text,,Y/N indicator: Late Arrival Flag,N,0.0,bootstrapped from the template row (joint distribution preserved)
+07_iot_streaming_data.csv,iot,SourceStream,text,,MQTT topic,mqtt/pharma/warehouse/environment,0.0,bootstrapped from the template row (joint distribution preserved)

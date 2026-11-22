@@ -1,0 +1,11 @@
+medicine_id,generic_name,disease_category,therapeutic_class,cold_chain_flag,units_90d,net_90d
+MED012,Valsartan,Cardiovascular Disease,Angiotensin II antagonist,N,34.0,182.93
+MED024,Montelukast,Respiratory Disease,Leukotriene receptor antagonist,N,41.0,312.53
+MED048,Escitalopram,Neurological and Mental Health Conditions,SSRI antidepressant,N,41.0,244.51
+MED009,Semaglutide,Diabetes Mellitus,GLP-1 receptor agonist,Y,98.0,11852.56
+MED016,Rosuvastatin,Cardiovascular Disease,Lipid-modifying agent,N,103.0,672.34
+MED035,Fluconazole,Infectious Disease,Triazole antifungal,N,156.0,710.92
+MED007,Insulin Glargine,Diabetes Mellitus,Long-acting insulin,Y,185.0,9154.67
+MED008,Insulin Aspart,Diabetes Mellitus,Rapid-acting insulin,Y,191.0,9246.43
+MED005,Dapagliflozin,Diabetes Mellitus,SGLT2 inhibitor,N,196.0,3380.74
+MED022,Budesonide/Formoterol,Respiratory Disease,ICS/LABA combination,N,200.0,5484.63

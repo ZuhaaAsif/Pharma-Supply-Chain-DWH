@@ -1,0 +1,39 @@
+census_region,state,city,net_sales,lvl
+Midwest,IL,Chicago,397962.51,0
+Midwest,IL,,397962.51,1
+Midwest,MI,Detroit,327230.03,0
+Midwest,MI,,327230.03,1
+Midwest,OH,Columbus,319825.28,0
+Midwest,OH,,319825.28,1
+Midwest,,,1045017.82,3
+Northeast,CT,Hartford,850910.0,0
+Northeast,CT,,850910.0,1
+Northeast,MA,Boston,998469.07,0
+Northeast,MA,,998469.07,1
+Northeast,NY,New York,358360.05,0
+Northeast,NY,,358360.05,1
+Northeast,PA,Philadelphia,285940.13,0
+Northeast,PA,Pittsburgh,341337.84,0
+Northeast,PA,,627277.97,1
+Northeast,,,2835017.09,3
+South,FL,Miami,189868.58,0
+South,FL,,189868.58,1
+South,GA,Atlanta,202701.07,0
+South,GA,,202701.07,1
+South,NC,Charlotte,226216.3,0
+South,NC,,226216.3,1
+South,TN,Nashville,190080.97,0
+South,TN,,190080.97,1
+South,TX,Dallas,241659.2,0
+South,TX,Houston,282831.03,0
+South,TX,,524490.23,1
+South,,,1333357.15,3
+West,CA,Los Angeles,325399.48,0
+West,CA,San Diego,332559.72,0
+West,CA,,657959.2,1
+West,CO,Denver,273011.39,0
+West,CO,,273011.39,1
+West,NV,Las Vegas,326681.46,0
+West,NV,,326681.46,1
+West,,,1257652.05,3
+,,,6471044.11,7

@@ -1,0 +1,64 @@
+disease_category,generic_name,units,rank_in_category,velocity_class
+Cardiovascular Disease,Bisoprolol,13321.0,1,Fast (top 20%)
+Cardiovascular Disease,Lisinopril,11319.0,2,Medium
+Cardiovascular Disease,Clopidogrel,9632.0,3,Medium
+Cardiovascular Disease,Losartan,9598.0,4,Medium
+Cardiovascular Disease,Hydrochlorothiazide,9335.0,5,Medium
+Cardiovascular Disease,Valsartan,8014.0,6,Medium
+Cardiovascular Disease,Rosuvastatin,7333.0,7,Medium
+Cardiovascular Disease,Atorvastatin,6515.0,8,Slow (bottom 20%)
+Cardiovascular Disease,Amlodipine,5228.0,9,Slow (bottom 20%)
+Diabetes Mellitus,Empagliflozin,14930.0,1,Fast (top 20%)
+Diabetes Mellitus,Gliclazide MR,13098.0,2,Fast (top 20%)
+Diabetes Mellitus,Metformin,12740.0,3,Medium
+Diabetes Mellitus,Sitagliptin,9020.0,4,Medium
+Diabetes Mellitus,Glimepiride,7742.0,5,Medium
+Diabetes Mellitus,Dapagliflozin,5950.0,6,Slow (bottom 20%)
+Diabetes Mellitus,Insulin Glargine,4956.0,7,Slow (bottom 20%)
+Diabetes Mellitus,Semaglutide,4083.0,8,Slow (bottom 20%)
+Diabetes Mellitus,Insulin Aspart,4048.0,9,Slow (bottom 20%)
+Gastrointestinal Disease,Mesalazine,16107.0,1,Fast (top 20%)
+Gastrointestinal Disease,Lactulose,14199.0,2,Fast (top 20%)
+Gastrointestinal Disease,Omeprazole,14091.0,3,Fast (top 20%)
+Gastrointestinal Disease,Esomeprazole,13641.0,4,Fast (top 20%)
+Gastrointestinal Disease,Pantoprazole,10687.0,5,Medium
+Gastrointestinal Disease,Domperidone,9104.0,6,Medium
+Gastrointestinal Disease,Famotidine,8169.0,7,Medium
+Gastrointestinal Disease,Ondansetron,7745.0,8,Medium
+Gastrointestinal Disease,Loperamide,7644.0,9,Medium
+Infectious Disease,Amoxicillin,15444.0,1,Fast (top 20%)
+Infectious Disease,Azithromycin,14649.0,2,Fast (top 20%)
+Infectious Disease,Levofloxacin,13476.0,3,Fast (top 20%)
+Infectious Disease,Cefixime,8863.0,4,Medium
+Infectious Disease,Ciprofloxacin,8693.0,5,Medium
+Infectious Disease,Doxycycline,8656.0,6,Medium
+Infectious Disease,Fluconazole,7850.0,7,Medium
+Infectious Disease,Metronidazole,7144.0,8,Medium
+Infectious Disease,Acyclovir,5457.0,9,Slow (bottom 20%)
+Neurological and Mental Health Conditions,Duloxetine,14668.0,1,Fast (top 20%)
+Neurological and Mental Health Conditions,Fluoxetine,11675.0,2,Medium
+Neurological and Mental Health Conditions,Sodium Valproate,10863.0,3,Medium
+Neurological and Mental Health Conditions,Levetiracetam,10636.0,4,Medium
+Neurological and Mental Health Conditions,Donepezil,10013.0,5,Medium
+Neurological and Mental Health Conditions,Sertraline,9299.0,6,Medium
+Neurological and Mental Health Conditions,Quetiapine,7304.0,7,Medium
+Neurological and Mental Health Conditions,Escitalopram,6916.0,8,Medium
+Neurological and Mental Health Conditions,Risperidone,6509.0,9,Slow (bottom 20%)
+Pain and Inflammatory Conditions,Celecoxib,13214.0,1,Fast (top 20%)
+Pain and Inflammatory Conditions,Colchicine,11170.0,2,Medium
+Pain and Inflammatory Conditions,Pregabalin,9853.0,3,Medium
+Pain and Inflammatory Conditions,Naproxen,8962.0,4,Medium
+Pain and Inflammatory Conditions,Paracetamol,8276.0,5,Medium
+Pain and Inflammatory Conditions,Ibuprofen,7822.0,6,Medium
+Pain and Inflammatory Conditions,Tramadol,7124.0,7,Medium
+Pain and Inflammatory Conditions,Allopurinol,6036.0,8,Slow (bottom 20%)
+Pain and Inflammatory Conditions,Diclofenac Sodium,5294.0,9,Slow (bottom 20%)
+Respiratory Disease,Salbutamol,15118.0,1,Fast (top 20%)
+Respiratory Disease,Tiotropium,10775.0,2,Medium
+Respiratory Disease,Budesonide/Formoterol,10759.0,3,Medium
+Respiratory Disease,Ipratropium Bromide,9452.0,4,Medium
+Respiratory Disease,Montelukast,8704.0,5,Medium
+Respiratory Disease,Fluticasone Propionate,7803.0,6,Medium
+Respiratory Disease,Acetylcysteine,6513.0,7,Slow (bottom 20%)
+Respiratory Disease,Budesonide,6132.0,8,Slow (bottom 20%)
+Respiratory Disease,Formoterol,5403.0,9,Slow (bottom 20%)

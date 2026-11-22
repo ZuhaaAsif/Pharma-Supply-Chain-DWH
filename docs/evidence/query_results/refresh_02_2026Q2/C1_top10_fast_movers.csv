@@ -1,0 +1,11 @@
+medicine_id,generic_name,disease_category,therapeutic_class,cold_chain_flag,units_90d,net_90d
+MED019,Salbutamol,Respiratory Disease,Short-acting beta-2 agonist,N,772.0,8573.49
+MED002,Gliclazide MR,Diabetes Mellitus,Sulfonylurea,N,698.0,4601.74
+MED014,Bisoprolol,Cardiovascular Disease,Beta blocker,N,689.0,3140.87
+MED026,Ipratropium Bromide,Respiratory Disease,Short-acting antimuscarinic,N,635.0,8701.19
+MED047,Fluoxetine,Neurological and Mental Health Conditions,SSRI antidepressant,N,612.0,2953.87
+MED027,Acetylcysteine,Respiratory Disease,Mucolytic,N,569.0,4830.46
+MED013,Lisinopril,Cardiovascular Disease,ACE inhibitor,N,555.0,1884.57
+MED062,Colchicine,Pain and Inflammatory Conditions,Antigout agent,N,530.0,2913.88
+MED046,Sertraline,Neurological and Mental Health Conditions,SSRI antidepressant,N,530.0,2900.44
+MED032,Cefixime,Infectious Disease,Third-generation cephalosporin,N,526.0,5362.35

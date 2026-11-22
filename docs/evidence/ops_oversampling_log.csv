@@ -1,0 +1,15 @@
+id,generated_at,refresh_label,source_key,window_start,window_end,template_rows,growth_factor,rows_generated,malformed_injected,output_file
+1,2026-11-21 13:25:37.949091+00:00,refresh_01_2026Q1,master,2026-01-01,2026-03-31,63,1.0,63,0,/home/claude/repo/data/oversampled/refresh_01_2026Q1/01_master_data.csv
+2,2026-11-21 13:25:37.949091+00:00,refresh_01_2026Q1,manufacturing,2026-01-01,2026-03-31,57,0.9841269841269841,56,1,/home/claude/repo/data/oversampled/refresh_01_2026Q1/02_manufacturing_data.csv
+3,2026-11-21 13:25:37.949091+00:00,refresh_01_2026Q1,delivery,2026-01-01,2026-03-31,105,1.003030303030303,105,1,/home/claude/repo/data/oversampled/refresh_01_2026Q1/03_manufacturer_delivery_data.csv
+4,2026-11-21 13:25:37.949091+00:00,refresh_01_2026Q1,warehouse,2026-01-01,2026-03-31,12803,1.25,16004,34,/home/claude/repo/data/oversampled/refresh_01_2026Q1/04_warehouse_data.csv
+5,2026-11-21 13:25:37.949091+00:00,refresh_01_2026Q1,sales,2026-01-01,2026-03-31,28854,0.9,25969,77,/home/claude/repo/data/oversampled/refresh_01_2026Q1/05_pharmacy_sales_data.csv
+6,2026-11-21 13:25:37.949091+00:00,refresh_01_2026Q1,hospital_demand,2026-01-01,2026-03-31,2268,1.0330212868040303,2268,6,/home/claude/repo/data/oversampled/refresh_01_2026Q1/06_hospital_demand_data.csv
+7,2026-11-21 13:25:37.949091+00:00,refresh_01_2026Q1,iot,2026-01-01,2026-03-31,25623,0.9970704213930197,25548,40,/home/claude/repo/data/oversampled/refresh_01_2026Q1/07_iot_streaming_data.csv
+8,2026-11-21 13:26:40.558718+00:00,refresh_02_2026Q2,master,2026-04-01,2026-06-30,63,1.0,63,0,/home/claude/repo/data/oversampled/refresh_02_2026Q2/01_master_data.csv
+9,2026-11-21 13:26:40.558718+00:00,refresh_02_2026Q2,manufacturing,2026-04-01,2026-06-30,33,1.0494505494505495,35,0,/home/claude/repo/data/oversampled/refresh_02_2026Q2/02_manufacturing_data.csv
+10,2026-11-21 13:26:40.558718+00:00,refresh_02_2026Q2,delivery,2026-04-01,2026-06-30,54,1.003058103975535,53,1,/home/claude/repo/data/oversampled/refresh_02_2026Q2/03_manufacturer_delivery_data.csv
+11,2026-11-21 13:26:40.558718+00:00,refresh_02_2026Q2,warehouse,2026-04-01,2026-06-30,11576,1.25,14470,31,/home/claude/repo/data/oversampled/refresh_02_2026Q2/04_warehouse_data.csv
+12,2026-11-21 13:26:40.558718+00:00,refresh_02_2026Q2,sales,2026-04-01,2026-06-30,19263,0.9,17337,52,/home/claude/repo/data/oversampled/refresh_02_2026Q2/05_pharmacy_sales_data.csv
+13,2026-11-21 13:26:40.558718+00:00,refresh_02_2026Q2,hospital_demand,2026-04-01,2026-06-30,2268,1.035647473401202,2268,6,/home/claude/repo/data/oversampled/refresh_02_2026Q2/06_hospital_demand_data.csv
+14,2026-11-21 13:26:40.558718+00:00,refresh_02_2026Q2,iot,2026-04-01,2026-06-30,22346,0.99043144735774,22132,29,/home/claude/repo/data/oversampled/refresh_02_2026Q2/07_iot_streaming_data.csv

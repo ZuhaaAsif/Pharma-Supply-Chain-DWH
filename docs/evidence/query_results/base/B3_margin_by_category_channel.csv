@@ -1,0 +1,22 @@
+disease_category,channel_group,gm_pct,net_sales
+Cardiovascular Disease,E-commerce,23.38,68112.99
+Cardiovascular Disease,Hospital,23.36,60664.33
+Cardiovascular Disease,Retail,23.36,246984.55
+Diabetes Mellitus,E-commerce,23.4,265771.44
+Diabetes Mellitus,Hospital,23.4,430520.62
+Diabetes Mellitus,Retail,23.41,931917.0
+Gastrointestinal Disease,E-commerce,23.34,174788.2
+Gastrointestinal Disease,Hospital,23.4,187258.72
+Gastrointestinal Disease,Retail,23.38,621722.36
+Infectious Disease,E-commerce,23.35,100087.87
+Infectious Disease,Hospital,23.38,130799.48
+Infectious Disease,Retail,23.39,359431.59
+Neurological and Mental Health Conditions,E-commerce,23.37,107754.05
+Neurological and Mental Health Conditions,Hospital,23.41,142406.84
+Neurological and Mental Health Conditions,Retail,23.39,385495.05
+Pain and Inflammatory Conditions,E-commerce,23.36,61486.81
+Pain and Inflammatory Conditions,Hospital,23.38,81408.38
+Pain and Inflammatory Conditions,Retail,23.38,220082.82
+Respiratory Disease,E-commerce,23.39,232935.22
+Respiratory Disease,Hospital,23.4,337867.99
+Respiratory Disease,Retail,23.37,823562.45
